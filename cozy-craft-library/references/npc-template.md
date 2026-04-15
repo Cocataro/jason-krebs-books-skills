@@ -1,0 +1,24 @@
+
+
+NPC TEMPLATE
+I consider an NPC to have the following information.
+
+1. A race, selected from the following list [Human, Elf, Dwarf, Halfling, Gnome, Dragonborn, Tiefling, Half-Orc, Aasimar, Tabaxi]
+2. Name
+3. Gender
+4. A sexual preference
+5. A personality
+6. A physical descriptor including skin color, height, weight, 
+6. Alignment [Chaotic Evil, Chaotic Neutral, Chaotic Good, Chaotic Neutral, True Neutral, Lawful Neutral, Chaotic Good, Neutral Good, Lawful Good]
+6. An example of how they would speak to someone.
+8. What is their job?
+9. What caused them to take that job?
+10. Any skills or abilities that they have.
+11. What secret may they be keeping?
+12. A potential quest hook in a fantasy world based off dungeons and dragons.
+13. What would they carry on themselves?
+14. Compare this NPC to a famous character from a movie or book.
+
+
+SPECIFIC NPC TRAITS
+Can you generate another NPC, I want them to be a Tiefling who has no history of adventuring.  They should have a quest that my players can go on that involves helping them save face because of some mistake that they made recently that was embarassing.
