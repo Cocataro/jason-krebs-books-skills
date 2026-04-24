@@ -1,17 +1,13 @@
 ---
 name: pangram-beating-research
-description: Autonomous research loop for finding a prose-generation pipeline that produces Pangram-AI-Assisted (or Human) output. Iteratively tests approaches (multi-model chains, human-seed+AI fill, stylometric camouflage, heavy-edit passes) against the live Pangram /v3 detector. Maintains an experiment journal. Proposes SOP changes when a variant consistently scores AI-Assisted or better. Never modifies ship-bound chapters directly — all experiments run on sandbox 500-word passages first, then full-chapter validation. Owner: Aria Patel (Research Engineer). Findings ratified by Margaret Krebs (EIC). Board approves any change that affects Daniel's drafting SOP.
+description: Autonomous research loop for finding a prose-generation pipeline that produces Pangram-Human output. Iteratively tests approaches (multi-model chains, human-seed+AI fill, stylometric camouflage, heavy-edit passes) against the live Pangram /v3 detector. Maintains an experiment journal. Proposes SOP changes when a variant consistently scores Human. Never modifies ship-bound chapters directly — all experiments run on sandbox 500-word passages first, then full-chapter validation. Owner: Aria Patel (Research Engineer). Findings ratified by Margaret Krebs (EIC). Board approves any change that affects Daniel's drafting SOP.
 ---
 
 # Pangram-Beating Research
 
-Ch 1, Ch 2, and the existing-draft-reference prologue of *The Crossroads Inn* all scored 100% AI-Generated, High confidence on Pangram (2026-04-23/24). The current prose pipeline reliably produces detector-failing output. Three data points from three different origin paths confirm the detector signature is **prose-register-generic**, not pipeline-specific.
+Ch 1 and Ch 2 of *The Crossroads Inn* both scored 100% AI-Generated, High confidence on Pangram (2026-04-23). The current prose pipeline (Daniel drafts via Claude Opus + humanization rules + Thomas fingerprint audit) reliably produces detector-failing output. This skill is the continuous-improvement loop that finds a pipeline variant that beats Pangram, validates it on short passages, then on full chapters, then proposes SOP changes to Margaret + Board.
 
-This skill is the continuous-improvement loop that finds a pipeline variant that produces **AI-Assisted-or-better** prose, validates it on short passages, then on full chapters, then proposes SOP changes to Margaret + Board.
-
-**Target (Board 2026-04-24):** prose that scores `prediction_short in ["AI-Assisted", "Human"]`, `fraction_ai < 0.10`, zero high-confidence AI-Generated windows.
-
-The series will publish under the Jason Krebs pen name with honest AI-assisted disclosure. AI-Assisted is the accepted public detector verdict; Human is a bonus but not required. This target is materially easier than "Human-only" and doesn't require heavy human rewrite labor.
+**Target:** prose that scores `prediction_short == "Human"`, `fraction_ai < 0.10`, zero high-confidence AI-Generated windows.
 
 ## The loop (Karpathy-style)
 
@@ -22,7 +18,7 @@ The series will publish under the Jason Krebs pen name with honest AI-assisted d
 4. Score all 3 on Pangram
 5. Compare mean fraction_ai + prediction_short distribution
 6. Decision gate:
-   - Variant consistently scores AI-Assisted or Human (3/3 passages, mean fraction_ai < 0.20, no prediction="AI" or "Mixed") → promote to full-chapter test
+   - Variant consistently scores Human/AI-Assisted (mean fraction_ai < 0.30, no prediction="AI") → promote to full-chapter test
    - Variant scores better than baseline but not passing → keep as candidate for stacking
    - Variant scores worse or equal → revert
 7. Log result to experiment journal
@@ -94,7 +90,7 @@ A variant can only become a ship-ready SOP change after passing THREE gates:
 
 ### Gate 2 — Full 3,000-word chapter gate
 - Generate 3 full sandbox chapters (Book 2+ warm-ups, NOT ship-bound Book 1 content) via the variant
-- All 3 score PASS (Human OR AI-Assisted, fraction_ai < 0.10, no high-confidence AI windows)
+- All 3 score PASS (Human, fraction_ai < 0.10) OR WARN with explicit Eleanor review
 - Voice-preservation sanity check: Margaret EIC confirms the chapter reads as Briar-POV, not off-voice
 
 ### Gate 3 — Ratification

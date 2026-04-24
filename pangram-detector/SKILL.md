@@ -33,7 +33,7 @@ The script:
 1. Reads the markdown file and strips YAML frontmatter.
 2. Sends the body to `POST https://text.api.pangram.com/v3` with `x-api-key` auth.
 3. Writes the raw Pangram JSON plus a derived `verdict` block to the output path.
-4. Prints a one-line summary to stdout (`PASS` / `FAIL` / `WARN`) and exits with status 0/1/2.
+4. Prints a one-line summary to stdout (`PASS` / `FAIL`) and exits 0 or 1.
 
 If Pangram returns 401, rotate the key via Board. If 500 or timeout, retry after 60s; if still failing, flag in the issue comment and escalate.
 
@@ -43,11 +43,10 @@ See `references/thresholds.md` for full spec. Summary:
 
 | Verdict | Criteria |
 |---|---|
-| **PASS** | `prediction_short == "Human"` AND `fraction_ai < 0.10` AND no window labeled `AI-Generated` with `confidence: High` |
-| **WARN** | `prediction_short == "AI-Assisted"` AND `fraction_ai < 0.10` AND no `AI-Generated/High` window — ship-ready allowed if Eleanor signs off on the AI-Assisted score |
+| **PASS** | `prediction_short in ["Human", "AI-Assisted"]` AND `fraction_ai < 0.10` AND no window labeled `AI-Generated` with `confidence: High` |
 | **FAIL** | `prediction_short in ["AI", "Mixed"]` OR `fraction_ai >= 0.10` OR any window labeled `AI-Generated` with `confidence: High` |
 
-**A FAIL verdict blocks ship-ready.** Daniel humanizes flagged passages and re-runs until PASS or WARN. A WARN verdict requires Eleanor's explicit sign-off on the specific segments before Margaret can ship-ready.
+**Board update 2026-04-24:** target lowered from Human-only to AI-Assisted-or-better. Series publishes under the Jason Krebs pen name with honest AI-assisted disclosure. Previous WARN tier folded into PASS. **A FAIL verdict blocks ship-ready.** Daniel humanizes flagged passages and re-runs until PASS.
 
 ## Humanization workflow when Pangram fails
 
@@ -79,8 +78,8 @@ File schema:
   "run_at": "2026-04-24T10:00:00Z",
   "pangram_raw": { ... full Pangram response ... },
   "verdict": {
-    "status": "PASS|WARN|FAIL",
-    "reasons": ["fraction_ai=0.03", "prediction=Human", "no high-confidence AI windows"],
+    "status": "PASS|FAIL",
+    "reasons": ["fraction_ai=0.08", "prediction=AI-Assisted", "no high-confidence AI windows"],
     "flagged_windows": []
   },
   "ship_ready_gate": "CLEARED|BLOCKED"
@@ -93,10 +92,10 @@ Eleanor reads the JSON artifact + the chapter source. Her job is to confirm:
 
 - Thomas didn't skip passages (compare word count of Pangram input vs chapter body).
 - Edits applied to flagged passages address the craft issue, not cosmetic score-chasing.
-- WARN-level scores reflect real AI-assisted content, not misfire on voice.
+- AI-Assisted scores reflect real AI-assisted content (expected for this pipeline), not misfire on voice.
 - If Thomas kicked back to Daniel for author-scope humanization, Daniel's revision actually addresses the flagged windows rather than just touching up adjacent prose.
 
-Eleanor posts a short verdict comment on the chapter's issue: `Pangram verdict ratified: PASS/WARN/FAIL. [notes]`.
+Eleanor posts a short verdict comment on the chapter's issue: `Pangram verdict ratified: PASS/FAIL. [notes]`.
 
 ## Margaret's ship-ready gate
 
@@ -105,7 +104,7 @@ Margaret will NOT mark any chapter ship-ready without:
 1. Pangram JSON artifact committed to `Detector-Runs/` in the repo
 2. Thomas's verdict comment posted with the JSON referenced
 3. Eleanor's verification comment ratifying the verdict
-4. Status in the verdict is PASS (or WARN with Eleanor explicit sign-off)
+4. Status in the verdict is PASS (Human or AI-Assisted)
 
 If any of the four are missing, ship-ready is blocked. No exceptions for launch deadlines.
 

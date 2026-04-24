@@ -122,9 +122,10 @@ def compute_verdict(pangram: dict) -> dict:
     if high_conf_ai_windows:
         return {"status": "FAIL", "reasons": reasons + [f"{len(high_conf_ai_windows)} high-confidence AI windows"], "flagged_windows": high_conf_ai_windows}
 
-    # Board 2026-04-24: both Human and AI-Assisted are PASS tiers
-    if prediction_short in (HUMAN_LABEL, AI_ASSISTED_LABEL):
+    if prediction_short == HUMAN_LABEL:
         return {"status": "PASS", "reasons": reasons, "flagged_windows": []}
+    if prediction_short == AI_ASSISTED_LABEL:
+        return {"status": "WARN", "reasons": reasons + ["requires Eleanor sign-off per Board SOP"], "flagged_windows": []}
 
     return {"status": "FAIL", "reasons": reasons + [f"unrecognized prediction_short={prediction_short!r}"], "flagged_windows": high_conf_ai_windows}
 
@@ -167,7 +168,7 @@ def main() -> int:
         "run_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
         "pangram_raw": pangram,
         "verdict": verdict,
-        "ship_ready_gate": "CLEARED" if verdict["status"] == "PASS" else "BLOCKED",
+        "ship_ready_gate": "CLEARED" if verdict["status"] == "PASS" else ("WARN_REVIEW" if verdict["status"] == "WARN" else "BLOCKED"),
     }
 
     output_path.write_text(json.dumps(artifact, indent=2), encoding="utf-8")
@@ -177,6 +178,8 @@ def main() -> int:
 
     if verdict["status"] == "PASS":
         return 0
+    if verdict["status"] == "WARN":
+        return 2
     return 1
 
 
