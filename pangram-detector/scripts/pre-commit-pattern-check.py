@@ -722,8 +722,104 @@ def run_checks(path: Path) -> list[Hit]:
     all_hits += check_semantic_catalog(paras)
     all_hits += check_named_location_catalog(paras)
     all_hits += check_zero_inference_register(body, paras)
+    # Pattern 8 (solo-observation block, Rule 24) DEFINED but NOT in active checks.
+    # Calibration: heuristic produces false positives on already-clean prose
+    # (Prologue v9.2+LC letter-writing scene flagged despite scoring 0.000 Human).
+    # Rule 24 documented in SKILL.md as guidance for chapter design; detector
+    # version requires Phase 2 work (e.g., per-paragraph register classification
+    # rather than character-presence-by-regex).
 
     return sorted(all_hits, key=lambda h: (h.line_num, h.pattern_id))
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Pattern 8 — Solo-protagonist observation block (Rule 24)
+#
+# Discovered Ch 1 cycle 2026-04-25. Pure solo-protagonist observation prose
+# (no dialogue, no multi-character action, no named transaction) scores AI
+# at chapter-establishing scale regardless of individual sentence quality.
+# Detector: any continuous span of 200+ words containing zero dialogue
+# markers (no quoted speech), zero second-character action verbs (handed,
+# said, asked, replied, offered, gave, took from him/her), zero named
+# transaction verbs (signed, paid, sold, bought) — flag for substitution.
+# ──────────────────────────────────────────────────────────────────────────────
+
+SOLO_BLOCK_MIN_WORDS = 200
+
+# Cheap heuristics — if any of these appear in a span, the span is NOT solo
+_DIALOGUE_RE = re.compile(r'["“”]')
+_INTERACTION_VERBS_RE = re.compile(
+    r"\b(said|asked|replied|answered|whispered|nodded|"
+    r"shrugged|smiled|frowned|laughed|"
+    r"handed|gave|took|offered|passed|received|"
+    r"opened the door|closed the door|"
+    r"reached for|grabbed|pushed|pulled|"
+    r"signed|paid|bought|sold|exchanged)\b",
+    re.IGNORECASE,
+)
+
+
+def check_solo_observation_block(paras: list[tuple[int, str]]) -> list[Hit]:
+    """Flag spans of 200+ words with no dialogue and no interaction-verbs."""
+    hits = []
+    # Walk paragraphs; accumulate solo runs; emit hit when run reaches threshold
+    run_start_idx = None
+    run_words = 0
+    run_first_para_idx = None
+    run_first_line = None
+
+    def is_solo(p: str) -> bool:
+        if _DIALOGUE_RE.search(p):
+            return False
+        if _INTERACTION_VERBS_RE.search(p):
+            return False
+        return True
+
+    for i, (line_num, para) in enumerate(paras):
+        if is_solo(para):
+            if run_start_idx is None:
+                run_start_idx = i
+                run_first_line = line_num
+                run_first_para_idx = i
+                run_words = 0
+            run_words += word_count(para)
+        else:
+            if run_words >= SOLO_BLOCK_MIN_WORDS and run_start_idx is not None:
+                hits.append(Hit(
+                    pattern_id=8,
+                    pattern_name="Solo-protagonist observation block (Rule 24)",
+                    para_num=(run_first_para_idx or 0) + 1,
+                    line_num=run_first_line or 0,
+                    description=(
+                        f"{run_words} words of continuous solo-observation prose "
+                        f"with no dialogue, no second-character interaction verb, "
+                        f"and no named transaction. Chapter-establishing solo "
+                        f"register scores AI on Pangram regardless of phrase-level "
+                        f"compliance. Substitute with a scene type that includes "
+                        f"dialogue or multi-character action (per Rule 24 in SKILL.md)."
+                    ),
+                    snippet=snip(paras[run_start_idx][1]),
+                ))
+            run_start_idx = None
+            run_words = 0
+    # Flush trailing run
+    if run_words >= SOLO_BLOCK_MIN_WORDS and run_start_idx is not None:
+        hits.append(Hit(
+            pattern_id=8,
+            pattern_name="Solo-protagonist observation block (Rule 24)",
+            para_num=(run_first_para_idx or 0) + 1,
+            line_num=run_first_line or 0,
+            description=(
+                f"{run_words} words of continuous solo-observation prose "
+                f"with no dialogue, no second-character interaction verb, "
+                f"and no named transaction. Chapter-establishing solo "
+                f"register scores AI on Pangram regardless of phrase-level "
+                f"compliance. Substitute with a scene type that includes "
+                f"dialogue or multi-character action (per Rule 24 in SKILL.md)."
+            ),
+            snippet=snip(paras[run_start_idx][1]),
+        ))
+    return hits
 
 
 def main() -> int:

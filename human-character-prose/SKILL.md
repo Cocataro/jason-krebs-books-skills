@@ -95,7 +95,29 @@ Daniel's `AGENTS.md` carries these 23 rules as the pre-loaded working protocol. 
 
 23. **Departure-scene rhythm parallelism.** Short paragraphs with clean parallel structure (3 short sentences each starting with the same subject + verb shape) will flag. Discovered v9.1 → v9.2: "She put the seal in the saddlebag. She tied the knot. She stood." Fix: interrupt mid-sequence with sensory intrusion, fragment, or non-action beat. Today's v9.2 fix added flint-kit fumble, cord-tying struggle, and "Stood there." fragment.
 
-These 23 are compression. Read the full references for depth. Read Reference 3 (failure-modes.md) BEFORE proposing any revision to a Pangram-cleared chapter.
+### Rule 24 — Added 2026-04-25 from Ch 1 cycle (JAS-81/85/89/90/91/92)
+
+24. **No solo-protagonist observation scenes at chapter-establishing scale.** Pure solo-protagonist observation prose — protagonist alone, observing/cataloging environment, in clipped fragmentary sentences without dialogue or another character — IS itself an AI signature for chapter-establishing register. This is NOT caught by rules 16-23; it is the *aggregate density* of clipped observation that flags, not any specific phrase or structure.
+
+   **Discovery (Ch 1 trajectory):** v9.2 fresh draft scored 1.000 AI. Three iterations of line-edits + register rewrites moved fraction_ai from 0.667 to 0.649 — essentially flat. The 5 failing windows in Ch 1 v3 register rewrite were ALL solo-protagonist observation scenes (morning wake, common room with Oldevar, inn reconnaissance, Pip intro, traveler confrontation setup). The 3 PASSING windows were: magistrate signing (heavy dialogue, transactional), post-confrontation (multi-character, action stakes), cellar ledger (dialogue with Pip). Same writer, same skill, same draft cycle, opposite scores.
+
+   **The rule:** chapter openings and any chapter scene longer than ~200 words MUST contain at least one of:
+   - **Dialogue exchange** between the protagonist and another character (preferred)
+   - **Physical interaction** with another character (door-opening, item-passing, struggle)
+   - **Active transaction or decision-with-stakes** that implicates another character or institution
+   - **Sensory intrusion that breaks observational mode** (a sound that demands response, a body sensation that interrupts thought, a physical event that forces attention)
+
+   **What does NOT count as breaking solo-observation mode:**
+   - Self-talk / italicized interior thought (still solo)
+   - Memory of another character (memory is solo)
+   - Description of the environment, no matter how specific (still solo)
+   - Body sensations the protagonist passively notes (still solo)
+
+   **Applied to chapter design:** the FIRST 500 words of any chapter must contain dialogue with another character. If the chapter outline calls for a solo establishing beat, OPEN the chapter mid-action with another character present and BACKFILL the establishing through dialogue/action. (See Prologue v8 fix: "departure scene with the innkeeper" replaced "morning wake observation" — same purpose, different scene type.)
+
+   **Detection status:** Pattern 8 in `pre-commit-pattern-check.py` is *defined but not active*. Initial heuristic (200+ words without dialogue or interaction verb) false-positives on the shipped Prologue's letter-writing scene (which scored 0.000 Human despite being solo). The Prologue's solo-letter scene works because it has dense named specificity (Wren age 17, Denna left-handed, 89 names) that grounds the prose; Ch 1's solo-morning-wake fails because its observations are generic. Phase 2 detector work needs per-paragraph register classification, not regex. **For now: this rule is a chapter-design constraint Daniel + Margaret enforce manually during outline review, not a pre-commit detector pattern.**
+
+These 24 are compression. Read the full references for depth. Read Reference 3 (failure-modes.md) BEFORE proposing any revision to a Pangram-cleared chapter.
 
 ---
 
