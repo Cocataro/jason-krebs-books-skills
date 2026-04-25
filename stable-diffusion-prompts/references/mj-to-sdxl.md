@@ -12,14 +12,14 @@ SDXL needs more explicit prompt construction than Flux or MJ. Weight-based synta
 | Style | Implicit via style transfer | Explicit via LoRA + keyword like "in the style of X" |
 | Negative | `--no X` | `negative_prompt` field (separate from main prompt) |
 
-## Recommended SDXL checkpoints for cozy fantasy
+## Recommended SDXL checkpoints for Heartland Fantasy
 
 - **Juggernaut XL** — versatile, handles painterly well with negatives
 - **Realvis XL** — tends photoreal; needs "illustration, painterly" weights
 - **AnimagineXL** — anime-leaning; mostly avoid for cozy unless specific look
 - **Dreamshaper XL** — good painterly baseline
 - **Proteus XL** — high detail, artistic
-- **Recommended first-try:** Juggernaut XL + cozy fantasy LoRA
+- **Recommended first-try:** Juggernaut XL + Heartland Fantasy LoRA
 
 ## Recommended LoRAs
 
@@ -32,12 +32,12 @@ SDXL needs more explicit prompt construction than Flux or MJ. Weight-based synta
 
 ### MJ
 ```
-The Crossroads Inn at dusk, warm amber lamplight through small-paned windows, cat on the doorstep with golden eyes, snowy path, cozy fantasy illustration, warm palette, painterly, studio ghibli, --ar 2:3 --stylize 400 --no text, deformed, extra fingers
+The Crossroads Inn at dusk, warm amber lamplight through small-paned windows, cat on the doorstep with golden eyes, snowy path, Heartland Fantasy illustration, warm palette, painterly, studio ghibli, --ar 2:3 --stylize 400 --no text, deformed, extra fingers
 ```
 
 ### SDXL (main prompt)
 ```
-cozy fantasy illustration, (the crossroads inn at dusk:1.2), (warm amber lamplight:1.2), small-paned windows, (black cat with golden eyes on doorstep:1.1), snow-dusted path, painterly, (studio ghibli aesthetic:1.3), warm palette of amber and forest green, (single warm light source:1.1), hand-painted texture, visible brush strokes, detailed illustration, masterpiece, 8k
+Heartland Fantasy illustration, (the crossroads inn at dusk:1.2), (warm amber lamplight:1.2), small-paned windows, (black cat with golden eyes on doorstep:1.1), snow-dusted path, painterly, (studio ghibli aesthetic:1.3), warm palette of amber and forest green, (single warm light source:1.1), hand-painted texture, visible brush strokes, detailed illustration, masterpiece, 8k
 ```
 
 ### SDXL (negative prompt)
@@ -50,11 +50,11 @@ photo, photograph, photorealistic, (cgi:1.2), (3d render:1.2), anime, manga, pla
 - Sampler: DPM++ 2M Karras
 - Steps: 30–40
 - CFG: 6.5–8.0
-- LoRA: cozy fantasy illustration LoRA at 0.7–0.9 weight
+- LoRA: Heartland Fantasy illustration LoRA at 0.7–0.9 weight
 
 ## SDXL pitfalls
 
-- **Without aggressive negatives:** SDXL produces photoreal output that fails the cozy fantasy aesthetic.
+- **Without aggressive negatives:** SDXL produces photoreal output that fails the Heartland Fantasy aesthetic.
 - **Without an illustration LoRA:** output drifts toward 3D-render look.
 - **Over-weighting emphasis (e.g., `(x:2.0)`):** produces burned / distorted output. Cap at 1.5 unless you know what you're doing.
 - **Skipping negatives on hands/fingers:** SDXL struggles with hands. Always include `(bad hands:1.5)`, `(extra fingers:1.5)` in negatives.

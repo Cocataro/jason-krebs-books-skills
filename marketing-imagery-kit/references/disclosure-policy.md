@@ -12,12 +12,12 @@ Per-platform AI-content disclosure rules (April 2026). Verify current requiremen
 ## Meta (Facebook / Instagram)
 
 - **Policy:** Platform labels AI-generated content automatically; users can also add "Made with AI" label.
-- **Paid ads:** Meta requires disclosure if the ad "photorealistically depicts a real person or event" using AI. For atmospheric cozy fantasy mood-shots, generally not required — use label anyway for trust.
+- **Paid ads:** Meta requires disclosure if the ad "photorealistically depicts a real person or event" using AI. For atmospheric Heartland Fantasy mood-shots, generally not required — use label anyway for trust.
 - **Organic posts:** Instagram's AI label is recommended when the image is substantially AI-generated.
 
 ## TikTok
 
-- **Policy:** TikTok requires creators to label AI-generated content showing "realistic scenes." Cozy fantasy illustrations are typically stylized (not realistic), so technical requirement is softer — but BookTok audience self-polices.
+- **Policy:** TikTok requires creators to label AI-generated content showing "realistic scenes." Heartland Fantasy illustrations are typically stylized (not realistic), so technical requirement is softer — but BookTok audience self-polices.
 - **Best practice:** label any substantially AI-generated content. Audience trust > platform minimum.
 
 ## Pinterest
@@ -28,12 +28,12 @@ Per-platform AI-content disclosure rules (April 2026). Verify current requiremen
 ## Twitter / X / Threads
 
 - **Policy:** No strict platform requirement at this time.
-- **Best practice:** if the image is mistake-able for photography, label. Illustration-style AI on a cozy-fantasy Twitter post typically doesn't require labeling.
+- **Best practice:** if the image is mistake-able for photography, label. Illustration-style AI on a heartland-fantasy Twitter post typically doesn't require labeling.
 
 ## Google Ads
 
 - **Policy:** AI-generated ad imagery must be disclosed if it depicts real people or events.
-- **Cozy fantasy use:** fictional illustration, typically not subject to disclosure.
+- **Heartland Fantasy use:** fictional illustration, typically not subject to disclosure.
 
 ## Email / Newsletter
 

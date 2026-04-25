@@ -1,6 +1,6 @@
 # Humanization patterns for Pangram-flagged windows
 
-When a Pangram window comes back `label: "AI-Generated"`, the window text has a craft problem. Pattern-specific fixes below. Tuned to Briar-POV cozy fantasy voice; generalize to other POVs as series expands.
+When a Pangram window comes back `label: "AI-Generated"`, the window text has a craft problem. Pattern-specific fixes below. Tuned to Briar-POV Heartland Fantasy voice; generalize to other POVs as series expands.
 
 These are craft corrections, not obfuscation tactics. Do not chase a score. Address the underlying smoothness.
 

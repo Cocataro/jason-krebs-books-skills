@@ -1,6 +1,6 @@
 ---
 name: editorial-letter-template
-description: The 12-section developmental editorial letter template for cozy fantasy manuscripts at Jason Krebs Books. Target length 7,000–9,000 words. Includes mandatory love-letter opening, priority-ranked revision list, and humanizing-fiction structural check. Used by Developmental Editor; QA'd by Editor-in-Chief before release to Series Writer.
+description: The 12-section developmental editorial letter template for Heartland Fantasy manuscripts at Jason Krebs Books. Target length 7,000–9,000 words. Includes mandatory love-letter opening, priority-ranked revision list, and humanizing-fiction structural check. Used by Developmental Editor; QA'd by Editor-in-Chief before release to Series Writer.
 ---
 
 # Editorial Letter Template
@@ -18,7 +18,7 @@ Specific strengths. What's working. Named scenes. Editors who skip this lose the
 Name the ONE core structural issue. Rank if multiple.
 
 ### 3. Structural / plot analysis (1,500–2,500 words)
-Beat-by-beat against the cozy fantasy rubric + Save the Cat. Where acts break, where pacing sags, where setups lack payoffs.
+Beat-by-beat against the Heartland Fantasy rubric + Save the Cat. Where acts break, where pacing sags, where setups lack payoffs.
 
 ### 4. Character arcs (1,000–1,500 words)
 Protagonist internal change, supporting cast agency, antagonist (in cozy: circumstance or soft-human, never a villain), found-family dynamics.

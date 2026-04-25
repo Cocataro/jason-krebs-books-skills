@@ -49,7 +49,7 @@ This is the second-order risk, not a hypothetical. Real 2025 cases:
 ### Get counsel
 If the book was marketed under Amazon's "AI-assisted" policy (your pre-declared stance), document that in writing now. Board decision needed: do we confirm that policy publicly, or stay silent?
 
-**Recommendation:** pre-declare the Jason Krebs Books stance in the author bio before launch. "Jason Krebs writes cozy fantasy with the help of AI drafting tools and a human editor of record." Plain language, once, in the bio. Not defensive, not apologetic. Readers who are okay with it will buy; readers who aren't will self-select. If you get called out later, you point to the bio.
+**Recommendation:** pre-declare the Jason Krebs Books stance in the author bio before launch. "Jason Krebs writes Heartland Fantasy with the help of AI drafting tools and a human editor of record." Plain language, once, in the bio. Not defensive, not apologetic. Readers who are okay with it will buy; readers who aren't will self-select. If you get called out later, you point to the bio.
 
 If you did not pre-declare, and the callout is catching steam, pre-declaring now (post-hoc) reads defensive. Handle case-by-case.
 
@@ -70,7 +70,7 @@ Hi. I saw the concern raised about [chapter/passage] in [book]. I want to addres
 
 [Book] was drafted with help from AI tools — I've noted this in my bio, and it's something I've been transparent about. The prose is edited by a human editor before publication.
 
-The paragraph flagged in [the callout] is one I've re-read and agree reads too smoothly. I'm revising it this week and will push an update to Amazon that will replace the current version. I appreciate the reader community's care for cozy fantasy's craft — it's why I work in this genre.
+The paragraph flagged in [the callout] is one I've re-read and agree reads too smoothly. I'm revising it this week and will push an update to Amazon that will replace the current version. I appreciate the reader community's care for Heartland Fantasy's craft — it's why I work in this genre.
 
 If you've bought the book and want the updated version, Amazon will push it automatically to Kindle within 24 hours of my republication. If you'd prefer a refund, that's also fair, and you can get one through Amazon's standard process.
 
@@ -83,7 +83,7 @@ Only use if you pre-declared the AI-assisted stance AND your audit confirms clea
 ```
 Hi. I saw the post running [book] through [Pangram / GPTZero].
 
-As my bio notes, I write cozy fantasy with AI drafting assistance and a human editor. The specific paragraph flagged reads, to me, the way I wrote it — I know it because I remember the line. Detectors can flag genuine human-edited prose, especially in the warm voice cozy fantasy uses. That's a known issue with these tools.
+As my bio notes, I write Heartland Fantasy with AI drafting assistance and a human editor. The specific paragraph flagged reads, to me, the way I wrote it — I know it because I remember the line. Detectors can flag genuine human-edited prose, especially in the warm voice Heartland Fantasy uses. That's a known issue with these tools.
 
 That said, the concern is legitimate and I take it seriously. I'll continue to be transparent about process, and my editor and I will keep holding the voice to a high bar.
 
@@ -120,14 +120,14 @@ The playbook above is damage control. Prevention is the real play:
 3. **Humanization pass is mandatory every chapter.** No schedule exceptions.
 4. **Two-detector sign-off before ship.** Pangram + GPTZero.
 5. **Human read-aloud every 5 chapters** (Margaret). Catches what detectors miss.
-6. **Monthly competitor scan.** What cozy fantasy books are getting flagged this month? What patterns are readers learning to notice? Update the ban-list.
+6. **Monthly competitor scan.** What Heartland Fantasy books are getting flagged this month? What patterns are readers learning to notice? Update the ban-list.
 
 ## Don't do
 
 - Don't silent-delete negative reviews (violates Amazon ToS; bad-faith signal).
 - Don't report flagging posts (streisand effect).
 - Don't sue. Don't threaten. Don't DM the reader.
-- Don't issue a blanket "AI has a place in fiction" ideology post. Nobody wants the cozy fantasy industry's position paper. Stay in the lane: you make books, readers read them.
+- Don't issue a blanket "AI has a place in fiction" ideology post. Nobody wants the Heartland Fantasy industry's position paper. Stay in the lane: you make books, readers read them.
 - Don't go on podcasts to "explain your process" — gives the story oxygen.
 - Don't re-pitch the book as "AI-assisted" after the fact to claim protection — reads as post-hoc defense.
 

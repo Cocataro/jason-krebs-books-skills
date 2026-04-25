@@ -44,11 +44,11 @@ Use in fiction is possible but AI over-indexes on them. Watch for clustering.
 ### Phrases
 `serves as a reminder`, `stands as a symbol`, `speaks to`, `captures the essence`, `fosters a sense of`, `offers a glimpse`, `invites us to`, `reminds us that`, `teaches us that`, `reflects on`, `prompts reflection`, `grapples with`, `wrestles with`
 
-## Tier 3 — cozy fantasy-specific caps at ≤3 per chapter
+## Tier 3 — Heartland Fantasy-specific caps at ≤3 per chapter
 
-Cozy fantasy legitimately uses warm imagery, but AI over-indexes on these exact adjectives and stacks them. Watch for clustering, especially tricolons of these.
+Heartland Fantasy legitimately uses warm imagery, but AI over-indexes on these exact adjectives and stacks them. Watch for clustering, especially tricolons of these.
 
-### Adjectives (cozy fantasy tells)
+### Adjectives (Heartland Fantasy tells)
 `ethereal`, `luminous`, `shimmering`, `gossamer`, `verdant`, `ancient` (as filler modifier), `timeless`, `whimsical`, `enchanting`, `magical` (as filler), `mystical`, `otherworldly`, `rustic`, `weathered`, `worn`, `cozy` (as authorial claim — readers hate this), `warm` (stacked), `golden` (as metaphor), `honeyed`, `flickering`, `crackling`, `dancing` (of flames/shadows)
 
 ### Nouns (cozy-overused)
@@ -95,7 +95,7 @@ Ratio: count-of-flagged ÷ count-of-plain-copulas (`is/are/was/were`)
 
 ## Participle-tail pattern (D9)
 
-Sentences ending with `, V-ing ...` trailing clause. Extremely common in Claude cozy fantasy output.
+Sentences ending with `, V-ing ...` trailing clause. Extremely common in Claude Heartland Fantasy output.
 
 Examples:
 - "She closed the door, the latch clicking softly against the old wood, sealing the room in warm silence." (triple tail — brutal)
@@ -120,7 +120,7 @@ When replacing banned vocabulary, reach for plain words first, then specific sen
 | shimmering | flickering (fine sparingly), glinting, glowing |
 | ancient (filler) | old, older than she knew, weathered |
 
-When in doubt: the plainer word is the right word in cozy fantasy prose. Readers forgive plain prose; they punish inflated prose.
+When in doubt: the plainer word is the right word in Heartland Fantasy prose. Readers forgive plain prose; they punish inflated prose.
 
 ## Update cadence
 

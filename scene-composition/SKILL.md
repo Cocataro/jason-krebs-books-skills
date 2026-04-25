@@ -44,7 +44,7 @@ What state does the scene end on? Usually the goal is blocked, complicated, or p
 - Flag any stakes-creep toward regional/epic. Escalate to EIC before drafting.
 
 ### 5. Genre beat served
-Which of the 7 cozy fantasy rubric beats does this scene serve? Or mark `transitional`, `character`, `worldbuilding`, `warmth`. If none → cut candidate.
+Which of the 7 Heartland Fantasy rubric beats does this scene serve? Or mark `transitional`, `character`, `worldbuilding`, `warmth`. If none → cut candidate.
 
 ### 6. Warmth anchor
 At least one explicit warmth moment per 2–3 chapters. Is this the warmth scene? If yes, note the form (shared food, kindness, shelter, comfort).
@@ -71,7 +71,7 @@ These are AI-default reflexes. Catch them at the brief stage, not the draft stag
 If this is a food/drink-present scene (one per 3 chapters minimum), specify what and how. Use nomenclature from the style sheet — invented dishes/drinks spelled canonically.
 
 ### 11. Dialogue-to-description target
-Estimate split (e.g., 60/40 dialogue-heavy, or 30/70 description-heavy). Cozy fantasy runs ~50/50 on average; this scene may lean.
+Estimate split (e.g., 60/40 dialogue-heavy, or 30/70 description-heavy). Heartland Fantasy runs ~50/50 on average; this scene may lean.
 
 ### 12. Target word count
 2,500–4,500 range. If aimed >4,500: can this split into two scenes? If aimed <2,000: should this merge with adjacent?

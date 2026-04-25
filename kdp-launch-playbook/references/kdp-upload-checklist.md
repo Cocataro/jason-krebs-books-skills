@@ -6,7 +6,7 @@ Every field in dashboard order. Agent pre-fills; Nicole verifies + pastes.
 
 - [ ] **Language:** English
 - [ ] **Book Title:** [exact, case as designed]
-- [ ] **Subtitle:** [one genre phrase + series identifier, e.g., "A Cozy Fantasy Novel (The Crossroads Inn Book 1)"]
+- [ ] **Subtitle:** [one genre phrase + series identifier, e.g., "A Heartland Fantasy Novel (The Crossroads Inn Book 1)"]
 - [ ] **Series name:** [e.g., "The Crossroads Inn"]
 - [ ] **Series number:** 1–6
 - [ ] **Edition number:** leave blank for first edition
@@ -16,7 +16,7 @@ Every field in dashboard order. Agent pre-fills; Nicole verifies + pastes.
 - [ ] **Publishing rights:** "I own the copyright"
 - [ ] **Keywords:** paste all 7 from `08-keywords.txt`
 - [ ] **Categories:** 3 paths from `09-categories.txt` via KDP's category picker
-- [ ] **Age range / Grade range:** leave blank for adult cozy fantasy
+- [ ] **Age range / Grade range:** leave blank for adult Heartland Fantasy
 - [ ] **Pre-order:** yes/no per `13-pre-order.md`
 
 ## Kindle eBook Content tab
@@ -24,7 +24,7 @@ Every field in dashboard order. Agent pre-fills; Nicole verifies + pastes.
 - [ ] **Manuscript:** upload `01-manuscript.epub`
 - [ ] **Cover:** upload `02-cover-ebook.jpg`
 - [ ] **ISBN:** leave blank (Amazon assigns ASIN for ebook)
-- [ ] **DRM:** **OFF** (once set, cannot change — cozy fantasy Board default)
+- [ ] **DRM:** **OFF** (once set, cannot change — Heartland Fantasy Board default)
 - [ ] **Preview:** run Kindle Previewer in the online viewer — spot-check chapter 1 drop cap, scene breaks, TOC
 
 ## Kindle eBook Pricing tab

@@ -11,7 +11,7 @@ One grid per book. Retained across the series. Populated during Read 2 of the de
 - One row per scene (not per chapter; chapters may contain multiple scenes).
 - **Purpose** must fit in one sentence. If you can't, the scene probably needs cutting.
 - **Stakes** — rate against the cozy ceiling. Any row marked "regional / national / world / cosmic" is a red flag.
-- **Genre beat served** — which of the 7 cozy fantasy rubric beats does this scene serve? Or mark "transitional" / "character" / "worldbuilding." Any scene that serves no beat and isn't clearly transitional/character/worldbuilding is a cut candidate.
+- **Genre beat served** — which of the 7 Heartland Fantasy rubric beats does this scene serve? Or mark "transitional" / "character" / "worldbuilding." Any scene that serves no beat and isn't clearly transitional/character/worldbuilding is a cut candidate.
 - **Flags** — one-line note of anything letter-worthy (pacing, voice drift, canon concern, humanizing-fiction issue).
 
 ## How to use

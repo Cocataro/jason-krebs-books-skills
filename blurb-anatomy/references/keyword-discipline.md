@@ -6,16 +6,16 @@
 
 1. **Publisher Rocket** ($199 one-time, Dave Chesson). Primary. Amazon auto-suggest + estimated competition/revenue.
 2. **Amazon auto-suggest** (free). Real reader queries, no estimates. Type into Amazon search, record suggestions.
-3. **K-lytics cozy fantasy report** (~$47 when current). Category-level trends (complements keywords).
+3. **K-lytics Heartland Fantasy report** (~$47 when current). Category-level trends (complements keywords).
 4. **KDSPY** (~$50). Secondary validation.
 5. **Amazon Ads keyword pull-down** (free with ad account). Real-query validation during ad setup.
 
-## Cozy fantasy keyword strategy
+## Heartland Fantasy keyword strategy
 
 Prefer phrases over single words. Single words lose to massive competition.
 
 **Long-tail bets (examples, not fixed list):**
-- "cozy fantasy slow burn"
+- "Heartland Fantasy slow burn"
 - "found family magical inn"
 - "low stakes fantasy series"
 - "tea shop magic cozy"
@@ -28,7 +28,7 @@ Prefer phrases over single words. Single words lose to massive competition.
 
 - Describe the genre flavor: "Legends and Lattes readalike" ✅
 - NEVER use author names: "fans of Travis Baldree" ❌ — TOS violation, delist risk
-- NEVER use book titles verbatim: "Legends and Lattes style" — gray area; prefer "cozy fantasy coffee shop" instead
+- NEVER use book titles verbatim: "Legends and Lattes style" — gray area; prefer "Heartland Fantasy coffee shop" instead
 - Name genres and vibes, not IP
 
 ## Update cadence
@@ -53,13 +53,13 @@ Each slot fits 50 characters. Phrases can contain spaces. Amazon indexes the ful
 
 Example slot layout (50 chars each):
 ```
-1. cozy fantasy slow burn romance
+1. Heartland Fantasy slow burn romance
 2. found family magical inn series
 3. whimsical fantasy comfort read
 4. cottagecore fantasy romance adult
 5. tea shop fantasy cozy fiction
 6. Legends and Lattes readalike
-7. low stakes cozy fantasy series
+7. low stakes Heartland Fantasy series
 ```
 
 ## Validation

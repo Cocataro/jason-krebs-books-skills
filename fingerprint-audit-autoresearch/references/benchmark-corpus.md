@@ -6,11 +6,11 @@ Every proposed rubric change is tested against this corpus before merging. Witho
 
 Target: ~120 labeled chapter-length samples across three classes.
 
-### Class A — Human cozy fantasy ("human")
-**Target: 50 chapters.** The calibration-sprint corpus from `ai-fingerprint-audit/references/calibration-sprint.md` becomes the seed. Add 10 more chapters per quarter from newly released human cozy fantasy (check NYT bestseller list, Goodreads Choice winners, r/fantasy top cozy recommendations).
+### Class A — Human Heartland Fantasy ("human")
+**Target: 50 chapters.** The calibration-sprint corpus from `ai-fingerprint-audit/references/calibration-sprint.md` becomes the seed. Add 10 more chapters per quarter from newly released human Heartland Fantasy (check NYT bestseller list, Goodreads Choice winners, r/fantasy top cozy recommendations).
 
 ### Class B — Unedited AI-default ("AI")
-**Target: 50 chapters.** Generate from Claude Opus / GPT-5 / Gemini on the 6-book Crossroads outline and other cozy fantasy outlines. **Do not run any humanization pass.** This is the raw baseline AI output — what would ship if Daniel did nothing but outline → Claude → push.
+**Target: 50 chapters.** Generate from Claude Opus / GPT-5 / Gemini on the 6-book Crossroads outline and other Heartland Fantasy outlines. **Do not run any humanization pass.** This is the raw baseline AI output — what would ship if Daniel did nothing but outline → Claude → push.
 
 Generation protocol:
 - Use 3 different model families (Anthropic, OpenAI, Google)
@@ -149,9 +149,9 @@ Current baselines are populated on first run after corpus is built. Updated each
 ## Corpus maintenance cadence
 
 - **Weekly (automated):** verify all file paths still resolve; no corrupted samples.
-- **Quarterly (manual + Thomas):** rotate 10% of samples — add newer cozy fantasy, newer AI models, newer Daniel shipping samples.
+- **Quarterly (manual + Thomas):** rotate 10% of samples — add newer Heartland Fantasy, newer AI models, newer Daniel shipping samples.
 - **After any incident:** the flagged-then-shipped book's chapter added to the corpus as a permanent reference sample.
-- **Annually:** full review. Retire any class-A samples from books that underperformed commercially (we're calibrating against successful cozy fantasy, not all cozy fantasy).
+- **Annually:** full review. Retire any class-A samples from books that underperformed commercially (we're calibrating against successful Heartland Fantasy, not all Heartland Fantasy).
 
 ## When to expand corpus
 

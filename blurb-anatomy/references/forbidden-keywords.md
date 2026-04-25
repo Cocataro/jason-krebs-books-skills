@@ -17,8 +17,8 @@ Verify the full current list at every 90-day refresh — Amazon updates periodic
 
 ## Gray area (avoid by default)
 
-- Author-genre comps: "Travis Baldree style" — describes flavor, doesn't quote. Borderline. Prefer "cozy fantasy coffee shop" framing instead.
-- Book-title echoes: "Legends and Lattes readalike" — describes genre. Generally safe but risk of flagging. Prefer generic "cozy fantasy inn" phrasing when in doubt.
+- Author-genre comps: "Travis Baldree style" — describes flavor, doesn't quote. Borderline. Prefer "Heartland Fantasy coffee shop" framing instead.
+- Book-title echoes: "Legends and Lattes readalike" — describes genre. Generally safe but risk of flagging. Prefer generic "Heartland Fantasy inn" phrasing when in doubt.
 
 ## Safe reframings
 
@@ -26,11 +26,11 @@ If tempted to use a forbidden term, reframe to describe the vibe:
 
 | Tempted | Safer |
 |---|---|
-| "fans of Travis Baldree" | "cozy fantasy coffee shop" / "found family cozy fantasy" |
-| "Legends and Lattes readalike" | "cozy fantasy shop-opening story" |
+| "fans of Travis Baldree" | "Heartland Fantasy coffee shop" / "found family Heartland Fantasy" |
+| "Legends and Lattes readalike" | "Heartland Fantasy shop-opening story" |
 | "Harry Potter style magic school" | "whimsical magic academy fantasy" |
 | "Tolkien-esque" | "high fantasy worldbuilding" / "epic fantasy adventure" |
-| "Christmas 2026 read" | "winter holiday cozy fantasy" |
+| "Christmas 2026 read" | "winter holiday Heartland Fantasy" |
 
 ## If a keyword gets flagged
 

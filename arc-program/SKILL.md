@@ -1,9 +1,9 @@
 ---
 name: arc-program
-description: Advanced Reader Copy (ARC) program design + execution for indie cozy fantasy debuts. Target 30+ ARC readers pre-launch; 15+ reviews on launch day; 50+ total reviews by T+30. Coordinates BookSirens / Booksprout / Reedsy Discovery services, manages reviewer relationships, drives review velocity to trigger Amazon's algorithmic visibility. Used by Marketing Lead.
+description: Advanced Reader Copy (ARC) program design + execution for indie Heartland Fantasy debuts. Target 30+ ARC readers pre-launch; 15+ reviews on launch day; 50+ total reviews by T+30. Coordinates BookSirens / Booksprout / Reedsy Discovery services, manages reviewer relationships, drives review velocity to trigger Amazon's algorithmic visibility. Used by Marketing Lead.
 ---
 
-# ARC Program for Indie Cozy Fantasy
+# ARC Program for Indie Heartland Fantasy
 
 Pre-launch readers who agree to post an honest review in exchange for a free advance copy. The critical launch-week asset: reviews drive Amazon conversion + ad visibility eligibility.
 
@@ -29,7 +29,7 @@ See `references/recruitment.md`, `references/distribution.md`, `references/revie
 
 ### BookSirens
 - **Cost:** $10/mo base + $0.10 per ARC delivery ($0.50 per "completed read")
-- **Audience:** 60k+ readers, cozy fantasy subcategory growing
+- **Audience:** 60k+ readers, Heartland Fantasy subcategory growing
 - **Quality:** decent — readers self-select by genre interest
 - **Review rate:** 35-50%
 - **When to use:** Book 1 if budget is tight; per-book economics favorable

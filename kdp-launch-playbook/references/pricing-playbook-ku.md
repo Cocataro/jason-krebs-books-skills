@@ -1,4 +1,4 @@
-# Cozy Fantasy KDP Select Pricing Playbook
+# Heartland Fantasy KDP Select Pricing Playbook
 
 Board default. CEO Jason approves adjustments per book.
 
@@ -51,13 +51,13 @@ Default auto-convert overprices GBP/EUR. Manually set:
 - **70% royalty** on $2.99–$9.99 ebook prices (KDP Select)
 - 35% royalty outside that range
 - **KENP:** ~$0.0045–$0.0050 per page read (fluctuates monthly with Global Fund payout)
-- **Break-even on KU vs. retail:** a full read-through of a 400-page cozy book in KU earns ~$1.80. A $4.99 retail sale at 70% earns ~$3.49. KU reads must exceed ~50–55% completion to match retail — cozy fantasy typically hits 80–95% read-through, so KU is net-positive.
+- **Break-even on KU vs. retail:** a full read-through of a 400-page cozy book in KU earns ~$1.80. A $4.99 retail sale at 70% earns ~$3.49. KU reads must exceed ~50–55% completion to match retail — Heartland Fantasy typically hits 80–95% read-through, so KU is net-positive.
 
 ## Paperback Pricing
 
 - KDP enforces minimum based on trim + page count + print cost
-- For ~90k cozy fantasy (~320pp, 5.25×8, cream, B&W): minimum typically ~$6.50
-- **List at $14.99** — standard indie cozy fantasy paperback price
+- For ~90k Heartland Fantasy (~320pp, 5.25×8, cream, B&W): minimum typically ~$6.50
+- **List at $14.99** — standard indie Heartland Fantasy paperback price
 - Royalty: list price − print cost − 40% Amazon cut
 - Paperback royalty is dessert, not the meal — the ebook + KU is the primary revenue
 

@@ -20,17 +20,17 @@ Flux.dev handles natural-language prompts almost as well as Midjourney. Migratio
 
 ### MJ
 ```
-A cozy fantasy inn, golden hour, warm amber lighting, a black cat with golden eyes on a threshold, snowy path, painterly illustration, studio ghibli style, character + place composition, --ar 2:3 --stylize 300 --no text
+A Heartland Fantasy inn, golden hour, warm amber lighting, a black cat with golden eyes on a threshold, snowy path, painterly illustration, studio ghibli style, character + place composition, --ar 2:3 --stylize 300 --no text
 ```
 
 ### Flux (natural language)
 ```
-A cozy fantasy illustration of a warm inn at golden hour, with amber lamplight spilling through the windows. A black cat with luminous golden eyes sits on the threshold, watching a snow-dusted path. Painterly brush texture, Studio Ghibli storybook aesthetic for adults. Character and place composition, 2:3 portrait aspect ratio. No text, no signature. Highly detailed foreground, soft background.
+A Heartland Fantasy illustration of a warm inn at golden hour, with amber lamplight spilling through the windows. A black cat with luminous golden eyes sits on the threshold, watching a snow-dusted path. Painterly brush texture, Studio Ghibli storybook aesthetic for adults. Character and place composition, 2:3 portrait aspect ratio. No text, no signature. Highly detailed foreground, soft background.
 ```
 
 ### Flux (more concise)
 ```
-Cozy fantasy inn at golden hour. Warm amber lamplight through small-paned windows. Black cat with golden eyes on threshold, snow-dusted path. Painterly illustration, Studio Ghibli aesthetic, 2:3 portrait.
+Heartland Fantasy inn at golden hour. Warm amber lamplight through small-paned windows. Black cat with golden eyes on threshold, snow-dusted path. Painterly illustration, Studio Ghibli aesthetic, 2:3 portrait.
 ```
 
 Both work. Flux is forgiving; use whichever reads more naturally to you.

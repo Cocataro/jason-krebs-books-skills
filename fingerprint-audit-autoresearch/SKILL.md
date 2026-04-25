@@ -28,7 +28,7 @@ See references:
    - Pangram/GPTZero/Binoculars transparency reports + changelog
    - r/selfpublish, r/ChatGPT, BookTok community ban-list updates
    - New community-curated lists (GitHub: humanizer, anti-ai-slop-writing, etc.)
-   - Any cozy-fantasy-specific incidents posted publicly in the last quarter
+   - Any heartland-fantasy-specific incidents posted publicly in the last quarter
 3. Subagent outputs a **proposed rubric diff** — which banned words to add, which thresholds to adjust, which new dimensions to test.
 4. Thomas runs the proposed diff through the benchmark (Layer 2).
 5. If benchmark passes: Margaret approves; skill updates; git commit + reimport.
@@ -39,8 +39,8 @@ See references:
 Every proposed rubric change — from quarterly research OR incident replay OR ad-hoc — must pass a precision/recall test before merging.
 
 **The labeled corpus:**
-- ~50 chapters from 5 human cozy fantasy comps (positive class — "human")
-- ~50 chapters of Claude/GPT output on cozy fantasy outlines (negative class — "AI-default")
+- ~50 chapters from 5 human Heartland Fantasy comps (positive class — "human")
+- ~50 chapters of Claude/GPT output on Heartland Fantasy outlines (negative class — "AI-default")
 - ~20 chapters of Claude/GPT output passed through a Daniel-equivalent humanization pass (middle class — "AI-drafted-human-edited" — this is our actual shipping category)
 - Updated quarterly (swap 10% of samples)
 
@@ -85,7 +85,7 @@ Subagent prompt for the quarterly dispatch (see `research-loop.md` for full vers
 - BookTok / r/romancebooks / r/fantasy specific AI-callout screenshots (catalog what patterns readers flagged)
 - GitHub repositories: humanizer, anti-ai-slop, fingerprint-detection — any new forks or major updates
 - Kindlepreneur / Jane Friedman / ALLi blog posts on AI detection in fiction
-- Any newly published cozy fantasy that got publicly flagged
+- Any newly published Heartland Fantasy that got publicly flagged
 
 Output format: proposed diff to `banned-vocabulary.md` and `SKILL.md` with rationale per change, ready to pass through Layer 2 benchmark.
 
@@ -142,8 +142,8 @@ When reliable AI/human-prose classification becomes a solved problem (accurate d
 
 ## When to expand
 
-- Additional genres beyond cozy fantasy (each genre has its own prose rhythm; separate baseline)
+- Additional genres beyond Heartland Fantasy (each genre has its own prose rhythm; separate baseline)
 - Non-English publishing (different fingerprints entirely; needs new benchmark corpus)
 - Audiobook production (ACX-specific tells around AI narration — separate audit)
 
-Until then, cozy fantasy only.
+Until then, Heartland Fantasy only.

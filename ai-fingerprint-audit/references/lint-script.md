@@ -227,7 +227,7 @@ Call this with TIER_1_WORDS, NOT_X_Y_PATTERNS, PARTICIPLE_TAIL regex to surface 
 ## Maintenance
 
 - Banned-word lists in this script mirror `banned-vocabulary.md` — keep in sync on update.
-- Regex patterns may need false-positive suppression for cozy fantasy (e.g., "ancient" used descriptively in dialogue is different from "ancient" as AI-filler).
+- Regex patterns may need false-positive suppression for Heartland Fantasy (e.g., "ancient" used descriptively in dialogue is different from "ancient" as AI-filler).
 - Quarterly review + tune.
 
 ## Possible enhancements

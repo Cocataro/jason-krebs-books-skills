@@ -19,7 +19,7 @@ Everything needed to draft, edit, ratify, and route human-feeling prose for *The
 ## What this replaces + what it doesn't
 
 **Replaces / supersedes:**
-- Cozy-specific craft rules in `cozy-craft-library` and `cozy-fantasy-rubric` (residual after the 2026-04-24 Heartland Fantasy repositioning). Their voice rules defer to this skill.
+- Heartland-specific craft rules in `heartland-craft-library` and `heartland-fantasy-rubric` (residual after the 2026-04-24 Heartland Fantasy repositioning). Their voice rules defer to this skill.
 - Prior `human-character-prose` v8 (rules 1-19 from JAS-60). v9.2 ADDS rules 20-23 + the failure-modes catalog. v8 rules are unchanged.
 
 **Does NOT replace:**

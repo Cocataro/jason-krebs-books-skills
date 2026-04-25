@@ -15,9 +15,9 @@ Books 2–6 already have outlines (on JAS-4, canonical source). Daniel can draft
 **Pros:** outline quality matches real production. Best sandbox-to-production generalization.
 **Cons:** there are only 5 future books; eventually exhausted.
 
-## Source 2 — Synthetic cozy fantasy outlines
+## Source 2 — Synthetic Heartland Fantasy outlines
 
-Generated outlines matching the cozy fantasy rubric but unrelated to The Crossroads Inn series.
+Generated outlines matching the Heartland Fantasy rubric but unrelated to The Crossroads Inn series.
 
 **Examples of synthetic outline seeds:**
 - "The Honeyhouse" — a retired bee-keeper inherits a magical apiary tangled with a local witch's grudge
@@ -26,14 +26,14 @@ Generated outlines matching the cozy fantasy rubric but unrelated to The Crossro
 - "The Bookmobile of the Borderlands" — a traveling librarian in a fantasy frontier world collects + redistributes stories
 - "The Farrier's Magic" — a small-town blacksmith discovers iron resonances that amplify simple magic; apprentice arrives
 
-Daniel (or a research subagent) generates a chapter outline to cozy-fantasy-rubric specs (7 beats, cozy stakes, warmth floor, food density, found family). These become sandbox outlines.
+Daniel (or a research subagent) generates a chapter outline to heartland-fantasy-rubric specs (7 beats, cozy stakes, warmth floor, food density, found family). These become sandbox outlines.
 
 **Pros:** unlimited supply; avoids over-fitting to Crossroads voice
 **Cons:** voice is inherently different from Crossroads; voice-distance measurements need extra care
 
-## Source 3 — Classic cozy fantasy re-imaginings
+## Source 3 — Classic Heartland Fantasy re-imaginings
 
-Take a published cozy fantasy book's premise and draft a sandbox chapter in that premise (not copying; reimagining).
+Take a published Heartland Fantasy book's premise and draft a sandbox chapter in that premise (not copying; reimagining).
 
 Examples:
 - "What if Legends & Lattes was set in a tea shop instead of a coffee shop" — draft Ch 1

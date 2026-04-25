@@ -1,16 +1,16 @@
-# Calibration Sprint — Human Cozy Fantasy Baseline
+# Calibration Sprint — Human Heartland Fantasy Baseline
 
-The thresholds in the rubric (em-dash per 1k, copula ratio, paragraph chaos, etc.) are synthesized from indie community consensus + academic stylometry. They're reasonable starting points. They're not validated against real cozy fantasy prose — which has its own rhythm and warmth patterns.
+The thresholds in the rubric (em-dash per 1k, copula ratio, paragraph chaos, etc.) are synthesized from indie community consensus + academic stylometry. They're reasonable starting points. They're not validated against real Heartland Fantasy prose — which has its own rhythm and warmth patterns.
 
-**Before Book 1 ships, run this sprint.** The goal: empirically measure where legitimate human cozy fantasy sits on every D1–D9 dimension, and set the studio's PASS band at ±1 standard deviation of that human baseline.
+**Before Book 1 ships, run this sprint.** The goal: empirically measure where legitimate human Heartland Fantasy sits on every D1–D9 dimension, and set the studio's PASS band at ±1 standard deviation of that human baseline.
 
 **Why:** if you ship at the generic indie thresholds, you may be either (a) letting through prose that flags as AI to a reader running Pangram, or (b) rejecting chapters that would have been fine because the baseline is calibrated for nonfiction-register text, not cozy-voice fiction.
 
 ## The comp titles
 
-Run all 5. Each is a published, widely-read cozy fantasy benchmark. You're not copying their voice — you're using their numbers.
+Run all 5. Each is a published, widely-read Heartland Fantasy benchmark. You're not copying their voice — you're using their numbers.
 
-1. **Legends & Lattes** — Travis Baldree (2022). The archetype of modern cozy fantasy.
+1. **Legends & Lattes** — Travis Baldree (2022). The archetype of modern Heartland Fantasy.
 2. **Bookshops & Bonedust** — Travis Baldree (2023). Prequel; Baldree voice proven across two books.
 3. **Can't Spell Treason Without Tea** — Rebecca Thorne (2022). Found-family + romantic cozy.
 4. **Emily Wilde's Encyclopedia of Faeries** — Heather Fawcett (2023). Academic-voice cozy; useful contrast.
@@ -63,7 +63,7 @@ For each dimension, compute:
 ## Set the studio's PASS band
 
 ### Option A — Conservative (recommended)
-Studio PASS band = mean ± 1 stdev (covers ~68% of human cozy fantasy prose)
+Studio PASS band = mean ± 1 stdev (covers ~68% of human Heartland Fantasy prose)
 
 | Dimension | Comp mean | Comp stdev | Studio PASS band | Studio FAIL threshold |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ Studio PASS band = mean ± 1 stdev (covers ~68% of human cozy fantasy prose)
 ### Option B — Aggressive
 Studio PASS band = mean of comps (strict). Any chapter above mean fails.
 
-**Don't use Option B** unless the studio is chasing zero-flag-risk at the cost of creative breathing room. Cozy fantasy readers forgive warm prose; they punish obvious fingerprints. Option A tunes to the realistic reader tolerance band.
+**Don't use Option B** unless the studio is chasing zero-flag-risk at the cost of creative breathing room. Heartland Fantasy readers forgive warm prose; they punish obvious fingerprints. Option A tunes to the realistic reader tolerance band.
 
 ### Option C — Per-dimension dynamic
 Some dimensions may cluster tighter than others. Set band per-dimension based on observed distribution:
@@ -86,7 +86,7 @@ Some dimensions may cluster tighter than others. Set band per-dimension based on
 
 ## What if the comps fail the default rubric?
 
-**Very likely outcome.** Cozy fantasy prose is warm and textured — it may legitimately exceed the generic indie thresholds on some dimensions.
+**Very likely outcome.** Heartland Fantasy prose is warm and textured — it may legitimately exceed the generic indie thresholds on some dimensions.
 
 If this happens:
 1. **Do NOT lower your ship/no-ship gate to accommodate both comps and your own drafts.** That defeats the point.
@@ -112,7 +112,7 @@ Total: ~$60 and a day of focused work. Pays for itself on Book 1 by catching mis
 
 - Every 12 months (books and reader tolerance shift)
 - After any material detector update (Pangram v2, GPTZero threshold change)
-- After any time the studio considers expanding beyond cozy fantasy (recalibrate for new genre)
+- After any time the studio considers expanding beyond Heartland Fantasy (recalibrate for new genre)
 
 ## Owner
 

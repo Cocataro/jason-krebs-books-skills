@@ -1,9 +1,9 @@
 ---
-name: cozy-fantasy-rubric
-description: The 7-beat structural rubric for cozy fantasy novels, with stakes calibration, warmth floor, food-density, found-family, and romance curve checks. Apply to every outline and every completed draft. Used by Editor-in-Chief on greenlight, Dev Editor in the structural read, Series Writer in self-audit.
+name: heartland-fantasy-rubric
+description: The 7-beat structural rubric for Heartland Fantasy novels, with stakes calibration, warmth floor, food-density, found-family, and romance curve checks. Apply to every outline and every completed draft. Used by Editor-in-Chief on greenlight, Dev Editor in the structural read, Series Writer in self-audit.
 ---
 
-# Cozy Fantasy Rubric
+# Heartland Fantasy Rubric
 
 Apply to every outline (EIC greenlight gate) and every completed draft (Dev Editor's structural read, Series Writer's self-audit).
 

@@ -38,7 +38,7 @@ Launch-week spike fades within 10 days. The post-launch 30-day window is about c
 ### Focus: review milestone + discovery
 - If review count crosses 50, eligible for more ad platforms (BookBub Featured Deal re-apply)
 - If review count crosses 100, apply for BookBub Deal
-- Start conversations with adjacent cozy fantasy authors — "I loved your X, readers who like Y would love Jason Krebs" — natural swap / mutual-mention opportunities
+- Start conversations with adjacent Heartland Fantasy authors — "I loved your X, readers who like Y would love Jason Krebs" — natural swap / mutual-mention opportunities
 
 ### Content
 - Second short-story Ledger post (every 2 weeks cadence from now on)

@@ -5,7 +5,7 @@
 ## Primary detector — Pangram
 
 - **Why:** current SOTA commercial detector. Neural classifier trained on ~1M human (pre-2021) + AI (post-2022) docs, with hard-negative mining against synthetic humanizer outputs. Independent benchmarks confirm it defeats StealthGPT-class evasion where GPTZero collapses.
-- **False-positive rate:** claimed 1-in-10,000 on general text, 1-in-100,000 on arXiv papers. Real-world exception: literary voice-y prose (Hachette's *Shy Girl*, NYT Modern Love column have false-positived). Cozy fantasy is closer to this exception territory — calibrate don't assume.
+- **False-positive rate:** claimed 1-in-10,000 on general text, 1-in-100,000 on arXiv papers. Real-world exception: literary voice-y prose (Hachette's *Shy Girl*, NYT Modern Love column have false-positived). Heartland Fantasy is closer to this exception territory — calibrate don't assume.
 - **Cost:** ~$0.002 per 1k words. ~$0.20 per full 90k-word book. ~$1.20 total for Book 1 across all chapters at 5k each.
 - **API:** [pangram.com](https://www.pangram.com) — request API access. Document + paragraph-level scores returned per request.
 - **Pricing tier:** API metered, no monthly commit required.
@@ -83,7 +83,7 @@ Response: document AI-probability + per-paragraph AI-probability + metadata.
 
 ### Monthly / quarterly
 1. Re-check Pangram + GPTZero for model updates or threshold changes (they publish transparency notes).
-2. Re-run calibration sprint against 2–3 new cozy fantasy human comps.
+2. Re-run calibration sprint against 2–3 new Heartland Fantasy human comps.
 3. Update `banned-vocabulary.md` with any new community-flagged tells.
 
 ## SQLite logging

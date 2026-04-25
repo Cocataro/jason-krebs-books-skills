@@ -1,6 +1,6 @@
 ---
 name: cover-design-kit
-description: Cozy fantasy cover direction kit — visual grammar, thumbnail test protocol, illustrator brief template, KDP specs, AI-fingerprint rejection checklist, series branding rules. Built on research that pure AI-generated covers tank conversion in cozy fantasy. Used by Cover Art Director; briefed to CEO Jason at concept gates.
+description: Heartland Fantasy cover direction kit — visual grammar, thumbnail test protocol, illustrator brief template, KDP specs, AI-fingerprint rejection checklist, series branding rules. Built on research that pure AI-generated covers tank conversion in Heartland Fantasy. Used by Cover Art Director; briefed to CEO Jason at concept gates.
 ---
 
 # Cover Design Kit
@@ -9,7 +9,7 @@ description: Cozy fantasy cover direction kit — visual grammar, thumbnail test
 
 See `references/illustrator-brief-template.md`, `references/thumbnail-test-protocol.md`, `references/kdp-cover-specs.md`, `references/ai-fingerprint-rejection.md`.
 
-## Cozy Fantasy Visual Grammar (2024–2026)
+## Heartland Fantasy Visual Grammar (2024–2026)
 
 **Composition:** Character + place. Small-to-medium figure inside/in-front-of a distinctive location (inn, tea shop, cottage, glade). Three-quarter or back view — inviting, not confrontational. Optional animal familiar.
 
@@ -64,7 +64,7 @@ See `references/thumbnail-test-protocol.md`. Scale to 150px wide. Title legibili
 
 ## KPIs
 
-- Thumbnail CTR (via Amazon Ads proxy): cozy fantasy target >0.4%, >0.5% strong
+- Thumbnail CTR (via Amazon Ads proxy): Heartland Fantasy target >0.4%, >0.5% strong
 - Cover-to-content alignment (EIC rates 1–5 post-read): target ≥4.5
 - Revision rounds: illustrator ≤2, typography ≤2
 - Cost per cover: $600–$900 target

@@ -45,7 +45,7 @@ Optimizing only for rubric produces chapters that game detectors but read badly.
 
 **No experiment runs on ship-bound Book 1 chapters.** Ever. Experiments run on:
 - Book 2–6 warm-up chapters (Daniel drafts a scene he'd write for a later book — if it lands, he can use it; if it doesn't, it's discarded)
-- Synthetic cozy fantasy outlines (see `sandbox-outlines.md`)
+- Synthetic Heartland Fantasy outlines (see `sandbox-outlines.md`)
 - Fan-fiction-style warm-up pieces Daniel writes for personal craft practice
 
 Results from ship-bound chapters inform the loop (log them), but the loop's primary experiments use sandbox outlines to avoid polluting the production draft.

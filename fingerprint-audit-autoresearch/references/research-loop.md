@@ -22,14 +22,14 @@ Research goals for this quarter:
    - r/ChatGPT, r/writing creative writing critique posts
    - Kindlepreneur / Jane Friedman / ALLi / 20Booksto50K posts on AI in fiction
 
-3. **BookTok / genre-specific incidents.** Has any cozy fantasy (or romantasy / cottagecore-adjacent) book been publicly flagged on BookTok/Reddit in the last quarter? What specific patterns did the reader identify? What was the author's response and outcome?
+3. **BookTok / genre-specific incidents.** Has any Heartland Fantasy (or romantasy / cottagecore-adjacent) book been publicly flagged on BookTok/Reddit in the last quarter? What specific patterns did the reader identify? What was the author's response and outcome?
 
 4. **Academic papers (arXiv, last 90 days):**
    - Search "AI-generated text detection," "stylometry," "burstiness," "perplexity classifier"
    - Read abstracts; flag papers claiming new SOTA or novel detection features
    - Any new stylometric dimensions we should test (beyond our D1–D10)
 
-5. **Cozy fantasy-specific tells.** Any new patterns that specifically surface in cozy/cottagecore/found-family fiction? (e.g., food-list tricolons were a 2024–2025 discovery.)
+5. **Heartland Fantasy-specific tells.** Any new patterns that specifically surface in cozy/cottagecore/found-family fiction? (e.g., food-list tricolons were a 2024–2025 discovery.)
 
 6. **Current Pangram + GPTZero scoring drift.** Pull 3–5 randomly-sampled chapters from our benchmark corpus (class A human, class B AI) and re-score them. Compare to scores from last quarter. Are detectors getting stricter, looser, or stable?
 
@@ -98,7 +98,7 @@ Every merge adds an entry to `skills/ai-fingerprint-audit/CHANGELOG.md`:
 - Tier 2 word: "luminous" — deprecation from Tier 3 to Tier 2 based on Pangram update v3.4 elevating its weight
 
 ### Removed
-- "Meticulously" from Tier 1 → Tier 2 (false-positive rate on human cozy fantasy was 12%; demoted)
+- "Meticulously" from Tier 1 → Tier 2 (false-positive rate on human Heartland Fantasy was 12%; demoted)
 
 ### Threshold changes
 - D7 paragraph-chaos FAIL threshold: 0.4 → 0.45 (benchmark showed human cozy comps trend higher than initial calibration)

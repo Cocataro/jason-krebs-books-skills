@@ -1,9 +1,9 @@
 ---
-name: cozy-craft-library
-description: Craft frameworks and templates for cozy fantasy book production. Use these references during outlining, drafting, humanization passes, and character work. Not series-specific — these are reusable creative-writing craft tools.
+name: heartland-craft-library
+description: Craft frameworks and templates for Heartland Fantasy book production. Use these references during outlining, drafting, humanization passes, and character work. Not series-specific — these are reusable creative-writing craft tools.
 ---
 
-# Cozy Craft Library
+# Heartland Craft Library
 
 Reusable creative-writing frameworks for the Jason Krebs Books studio. Not plot-specific — consult the canonical series material (posted on the series source-material issue) for per-series content.
 
@@ -22,7 +22,7 @@ Reusable creative-writing frameworks for the Jason Krebs Books studio. Not plot-
 ### `references/plot-module-novella.md`
 **Use when:** scoping a shorter work (novella, novelette, bonus-content side story); thinking through chapter pacing discipline at small scale; auditing a short-form scene for structural completeness.
 **Relevant roles:** Series Writer (if/when side stories or bonus novellas are proposed), Editor-in-Chief (scoping any short-form work).
-**How to apply:** 10-chapter template for 15k–40k word works. Adapts the cozy fantasy beats to smaller scope.
+**How to apply:** 10-chapter template for 15k–40k word works. Adapts the Heartland Fantasy beats to smaller scope.
 
 ### `references/story-creation-prompt.md`
 **Use when:** starting a new book's outline from scratch; refreshing voice calibration mid-series; briefing a new agent on the studio's prose standards.
@@ -32,14 +32,14 @@ Reusable creative-writing frameworks for the Jason Krebs Books studio. Not plot-
 ### `references/npc-template.md`
 **Use when:** introducing any non-POV character with a speaking role; filling out the character bible for a background character who becomes recurring.
 **Relevant roles:** Series Writer (on-the-fly NPC creation during drafting), Editor-in-Chief (canon ratification for bible inclusion).
-**How to apply:** 14-field character sketch template. Covers race/name/personality/physical/alignment/voice/motivation/skills/secret/quest-hook/possessions/comparison. Adapt fields as needed for the cozy fantasy context (D&D alignments are optional; some fields translate imperfectly to low-magic cozy settings).
+**How to apply:** 14-field character sketch template. Covers race/name/personality/physical/alignment/voice/motivation/skills/secret/quest-hook/possessions/comparison. Adapt fields as needed for the Heartland Fantasy context (D&D alignments are optional; some fields translate imperfectly to low-magic cozy settings).
 
 ## Usage pattern
 
 1. At wake, read only the reference(s) relevant to the current task — not all of them.
 2. Treat these as frameworks, not commandments. The studio's brutal-honesty rule applies: if a framework says "do X" and the book is better when you don't, don't.
 3. When a reference says something that conflicts with the series Style Guide, the **Style Guide wins**. These are studio-general; the Style Guide is series-canonical.
-4. When a reference says something that conflicts with CMOS 18, that's expected — these are craft tools for cozy-fantasy voice, which deliberately breaks CMOS where humanizing-fiction demands.
+4. When a reference says something that conflicts with CMOS 18, that's expected — these are craft tools for heartland-fantasy voice, which deliberately breaks CMOS where humanizing-fiction demands.
 
 ## What this skill is NOT
 

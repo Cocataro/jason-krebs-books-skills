@@ -63,7 +63,7 @@ Applying a fix:
 3. **Add sensory anchor** — specific concrete noun replaces the generic abstraction ("the fire" → "the fire that wanted to be looked at").
 4. **Kill smoothness** — read aloud. Passage reads as too-smooth? Break it.
 
-See `references/humanization-patterns.md` for craft-pattern catalog tuned to Briar-POV cozy fantasy.
+See `references/humanization-patterns.md` for craft-pattern catalog tuned to Briar-POV Heartland Fantasy.
 
 ## Output artifact
 

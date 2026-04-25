@@ -1,4 +1,4 @@
-# Cozy Fantasy Blurb Template
+# Heartland Fantasy Blurb Template
 
 Drop into the KDP description field after validating HTML via Kindlepreneur Description Generator. Bold the hook. Italicize comp titles. Single blank lines between paragraphs.
 
@@ -34,7 +34,7 @@ Lives on Amazon series page. Auto-pulls Book 1's description by default; customi
 ```
 [WORLD PROMISE — 40–60 words. The inn, the crossroads, the found family, the architectural heart.]
 
-[SERIES SCOPE — 20–30 words. "Six novels, each a standalone story in the same world, best read in order." OR "A growing series of cozy fantasy comfort reads..."]
+[SERIES SCOPE — 20–30 words. "Six novels, each a standalone story in the same world, best read in order." OR "A growing series of Heartland Fantasy comfort reads..."]
 
 [BINGE PROMISE — 20–30 words. "Perfect for readers who want to sink into a world and stay."]
 ```

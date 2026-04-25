@@ -1,9 +1,9 @@
 ---
 name: indie-launch-playbook
-description: Pre-launch audience build, launch-week choreography, and post-launch growth for indie cozy fantasy on KDP. Budget-conservative, engagement-first, pen-persona-safe. Target: move from 0 to 500+ engaged subscribers in 8 weeks pre-launch, then execute a 7-day launch window that drives Amazon's first-week algorithm. Used primarily by Marketing Lead; referenced by CEO for strategic decisions.
+description: Pre-launch audience build, launch-week choreography, and post-launch growth for indie Heartland Fantasy on KDP. Budget-conservative, engagement-first, pen-persona-safe. Target: move from 0 to 500+ engaged subscribers in 8 weeks pre-launch, then execute a 7-day launch window that drives Amazon's first-week algorithm. Used primarily by Marketing Lead; referenced by CEO for strategic decisions.
 ---
 
-# Indie Cozy Fantasy Launch Playbook
+# Indie Heartland Fantasy Launch Playbook
 
 Pre-launch (8 weeks) → Launch week (7 days) → Post-launch (30 days) → Series long-tail (ongoing).
 
@@ -55,7 +55,7 @@ See `references/launch-week-choreography.md`.
 
 See `references/post-launch-30-days.md`. Focus: retention cadence, series-read-through optimization, Amazon Ads always-on, review velocity, early Book 2 signals.
 
-## Channel economics (cozy fantasy, 2026 baseline)
+## Channel economics (Heartland Fantasy, 2026 baseline)
 
 See `references/channel-economics.md` for detail. Quick reference:
 

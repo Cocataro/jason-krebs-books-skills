@@ -47,13 +47,13 @@ Fiction-relevant reference. Released Sept 2024 — current. Remember: **humanizi
 - Exception: words in common English usage (croissant, piñata) — roman
 
 ### Invented words in fiction
-- CMOS doesn't explicitly cover — house rule: italicize first use, roman thereafter. Cozy fantasy under-italicizes for readability.
+- CMOS doesn't explicitly cover — house rule: italicize first use, roman thereafter. Heartland Fantasy under-italicizes for readability.
 
 ### Thoughts
 - See Internal thought above
 
 ### Ship / aircraft names
-- Italicize (rarely relevant in cozy fantasy)
+- Italicize (rarely relevant in Heartland Fantasy)
 
 ### Book titles, film titles
 - Italicize in running text

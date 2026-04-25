@@ -40,7 +40,7 @@ Amazon allows up to 7 modules. Rules per module type:
 - **BookTok audience is AGGRESSIVELY against AI covers.** Even atmospheric AI can get flagged if it feels like cover-substitute.
 - Use AI sparingly — maybe mood-setting B-roll in a video. Never as a "cover reveal."
 - AI-label videos per TikTok's policy when AI is primary content.
-- Best-performing BookTok cozy fantasy content is face-to-camera readers, book-in-hand, real-setting — not AI.
+- Best-performing BookTok Heartland Fantasy content is face-to-camera readers, book-in-hand, real-setting — not AI.
 
 ### Twitter / X / Threads
 - **Atmospheric AI permitted** for mood posts, "rainy day reading vibes" type content.
@@ -61,7 +61,7 @@ Amazon allows up to 7 modules. Rules per module type:
 - Use real cover. Optionally pair with AI atmospheric scene-setting below.
 
 ### "Curl up with a cozy book" atmospheric posts
-- AI-generated steaming mug / book-and-blanket / rainy-window scene are fine. This is the sweet spot for AI imagery in cozy fantasy.
+- AI-generated steaming mug / book-and-blanket / rainy-window scene are fine. This is the sweet spot for AI imagery in Heartland Fantasy.
 
 ## Paid advertising
 

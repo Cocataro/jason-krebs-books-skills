@@ -15,7 +15,7 @@ My book [Title] (ASIN [ASIN]) is currently categorized in [current 3 categories]
 2. [additional category path]
 3. [additional category path]
 
-The book is a cozy fantasy novel featuring [one-line description]. Thank you for your help.
+The book is a Heartland Fantasy novel featuring [one-line description]. Thank you for your help.
 
 [Pen name]
 [Email]

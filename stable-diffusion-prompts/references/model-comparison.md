@@ -1,6 +1,6 @@
 # Model Comparison (April 2026)
 
-Current state-of-play for cozy fantasy imagery generation.
+Current state-of-play for Heartland Fantasy imagery generation.
 
 | Model | Cost | Quality (cozy) | Prompt style | Strengths | Weaknesses |
 |---|---|---|---|---|---|

@@ -1,4 +1,4 @@
-# Channel economics (indie cozy fantasy, 2026 baseline)
+# Channel economics (indie Heartland Fantasy, 2026 baseline)
 
 Cost structure + typical CPA + strategic use for each major channel.
 
@@ -10,14 +10,14 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 - **CPA to grow:** n/a (organic cost); $0.50–$3 via paid channels to acquire
 - **Launch impact:** highest — engaged email drives first-week velocity
 - **Retention:** unsubscribe rate 2–5% monthly is typical
-- **Benchmarks (cozy fantasy):** 35–50% open rate, 5–10% click rate, 20%+ engagement
+- **Benchmarks (Heartland Fantasy):** 35–50% open rate, 5–10% click rate, 20%+ engagement
 
 ## Rented — BookTok (TikTok)
 
 - **Cost:** free organic; ads $5–$20/day for meaningful test
 - **Typical organic CPA to list:** wildly variable; 1 viral piece = 200+ signups; 10 flat posts = 0 signups
 - **Algorithm:** optimizes for watch time + completion rate; 15-30 sec videos win early
-- **Best formats for cozy fantasy:** atmospheric reels (tea + book + rain), "if you loved X try Y" recommendations, cozy-reading-nook aesthetics
+- **Best formats for Heartland Fantasy:** atmospheric reels (tea + book + rain), "if you loved X try Y" recommendations, cozy-reading-nook aesthetics
 - **Time cost:** 2–4 hours per week for sustained presence
 - **Risk:** AI-author callouts, pen-persona leakage
 - **When to use:** always-on; 2–4 posts/week
@@ -41,7 +41,7 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 
 - **Cost:** free (mutual)
 - **CPA:** $0–$2 per acquired sub (depends on swap audience quality)
-- **Process:** find cozy fantasy authors with similar list size (500–5000), email asking to swap (they mention your book to theirs, you mention theirs to yours)
+- **Process:** find Heartland Fantasy authors with similar list size (500–5000), email asking to swap (they mention your book to theirs, you mention theirs to yours)
 - **Timing:** pre-launch sparingly (low leverage until list is 200+); heavy post-launch
 - **Risk:** bad fit can generate unsubscribes on both sides
 
@@ -65,7 +65,7 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 - **Cost:** variable; typical indie $5–$20/day sustained
 - **CPA (to subscribe via /the-hearth):** not primary goal; Amazon Ads drive sales not signups
 - **CPA (to sale):** $1–$4 target; at $0.99 launch price, break-even around $1 CPA
-- **Target:** ACoS 20–35% is healthy for cozy fantasy
+- **Target:** ACoS 20–35% is healthy for Heartland Fantasy
 - **When to use:** post-organic-baseline; always-on once launched
 - **Gotcha:** Amazon Ads optimize for impressions/clicks, not sales. Must manage bids + negatives actively.
 
@@ -73,7 +73,7 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 
 - **Cost:** $5–$10/day meaningful minimum
 - **CPA to list:** $1–$4
-- **Targeting:** lookalike of existing subscribers (requires 500+ list), interest-targeting to "Travis Baldree" / "cozy fantasy" enthusiasts
+- **Targeting:** lookalike of existing subscribers (requires 500+ list), interest-targeting to "Travis Baldree" / "Heartland Fantasy" enthusiasts
 - **Creative:** atmospheric stills + UGC-feel video; Sofia can generate imagery
 - **When to use:** week 6+ pre-launch, post-baseline
 - **Risk:** platform optimization can drift; review creatives weekly
@@ -82,13 +82,13 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 
 - **Cost:** $0.25–$2 CPM
 - **CPA:** $2–$8 typical
-- **Audience:** high-quality genre readers; better than Meta for cozy-fantasy targeting
+- **Audience:** high-quality genre readers; better than Meta for heartland-fantasy targeting
 - **Creative:** book cover + short hook
 - **When to use:** launch week + BookBub Featured Deals; underused by indie
 
 ## Paid — BookBub Featured Deal
 
-- **Cost:** $1,500+ one-shot for a Cozy Fantasy Deal slot
+- **Cost:** $1,500+ one-shot for a Heartland Fantasy Deal slot
 - **Output:** 10,000+ downloads typical for $0.99 price with big-name eligibility
 - **Acceptance rate:** 10–15% for indie first-time applicants
 - **When to use:** apply 6 weeks out; plan without assuming acceptance; re-apply post-launch once reviews land
@@ -103,7 +103,7 @@ Verify current rates + thresholds each launch; channel economics drift quarterly
 
 - **SparkLoop / Upscribe / paid newsletter-growth services** — low-quality cross-subscription traffic; fake engagement
 - **Fiverr micro-promo sellers** — unreliable, often fake/bot traffic
-- **Twitter/X ads** — wrong audience for cozy fantasy; sink
+- **Twitter/X ads** — wrong audience for Heartland Fantasy; sink
 - **YouTube ads** — wrong format for discovery; works for established authors only
 - **Podcast ads** — expensive, no attribution mechanism for indie
 

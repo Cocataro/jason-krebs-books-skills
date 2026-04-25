@@ -1,4 +1,4 @@
-# Pre-launch 8-week playbook (indie cozy fantasy, budget-conservative)
+# Pre-launch 8-week playbook (indie Heartland Fantasy, budget-conservative)
 
 ## Week 0 — Infrastructure lock (current week)
 
@@ -21,9 +21,9 @@
 - Ship first 2 Ledger posts (Nina writes per Riley's brief)
 - Create pen-persona presence on:
   - Reddit: lurker accounts on r/CozyFantasy, r/Fantasy, r/Romancebooks (NO self-promotion for 30 days)
-  - BookTok: creator account — decide whose — post 2 atmospheric videos ("the cozy fantasy reading setup," "books next to my tea")
+  - BookTok: creator account — decide whose — post 2 atmospheric videos ("the Heartland Fantasy reading setup," "books next to my tea")
   - Bookstagram: author-style account with atmospheric imagery (coordinate with Sofia for campaign stills)
-- Audit competing cozy fantasy author sites (Baldree, Thorne, Fawcett, Klune, Mandanna) for content frequency, cadence, formats
+- Audit competing Heartland Fantasy author sites (Baldree, Thorne, Fawcett, Klune, Mandanna) for content frequency, cadence, formats
 - No paid spend
 
 **Target: 10–30 subscribers from organic discovery + any friends/family seeding**
@@ -31,7 +31,7 @@
 ## Week 2 — Signup acceleration + partnership outreach
 
 - 2 more Ledger posts (total 4 published, SEO compound begins)
-- Email 10+ cozy fantasy authors with similar-sized audiences for newsletter swap
+- Email 10+ Heartland Fantasy authors with similar-sized audiences for newsletter swap
 - First BookTok content batch: 4 videos (the cozy-reading-nook aesthetic, one pen-persona "about me" atmospheric)
 - Optimize landing page signup form based on week 1 data (if signup conversion <3% of visitors, A/B test headline)
 - Set up site analytics with Plausible/Umami (propose to Board; ~$9/mo)
@@ -40,8 +40,8 @@
 
 ## Week 3 — First partnership swap + community engagement
 
-- First newsletter swap lands (with 1 cozy fantasy author — you send theirs, they send yours)
-- Reddit lurker accounts begin engaging authentically (not promoting — commenting on others' cozy fantasy threads with helpful adds)
+- First newsletter swap lands (with 1 Heartland Fantasy author — you send theirs, they send yours)
+- Reddit lurker accounts begin engaging authentically (not promoting — commenting on others' Heartland Fantasy threads with helpful adds)
 - BookTok: 6 videos this week, experimenting with formats (bookshelf tours, "if you loved Baldree try...", cozy mood reels)
 - 2 more Ledger posts
 - Begin ARC recruitment planning (research BookSirens vs Booksprout)
@@ -53,7 +53,7 @@
 **CHECKPOINT:** If subscribers <100 by end of week 4, escalate to Board. Strategy adjustment required.
 
 - ARC recruitment opens — sign up with chosen service (~$20 setup + $10/mo)
-- Post on BookTok: "Looking for ARC readers for cozy fantasy debut — hearth, tea, found family, slow burn"
+- Post on BookTok: "Looking for ARC readers for Heartland Fantasy debut — hearth, tea, found family, slow burn"
 - Continue swap outreach (target 3 swaps confirmed for weeks 5–7)
 - 2 more Ledger posts
 - First subscriber survey (short: "which covers do you love? which tropes? what tea do you drink?") — use to inform cover selection + welcome sequence refinement
@@ -66,7 +66,7 @@
 - Send ARC copies (first 3 chapters + synopsis — not the whole book until Ch 3 ships and full Book 1 is locked)
 - 2 Ledger posts
 - Review welcome sequence email performance; iterate subject lines on any <30% open rate
-- Begin conversations with Cozy Fantasy Facebook groups for authentic engagement (NOT promo — offering free ARC seats to engaged members)
+- Begin conversations with Heartland Fantasy Facebook groups for authentic engagement (NOT promo — offering free ARC seats to engaged members)
 
 **Target: 280–350 subscribers**
 

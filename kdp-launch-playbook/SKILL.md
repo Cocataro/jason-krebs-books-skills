@@ -1,6 +1,6 @@
 ---
 name: kdp-launch-playbook
-description: KDP Select launch operations — Upload Packet template, full field-by-field upload checklist (ebook + paperback), pre-order strategy, pricing playbook for cozy fantasy in KU, launch runbook with T-minus schedule, royalty monitoring, support ticket templates, and account-safety rules. Critical: no KDP API exists. Agents prepare inputs; Board (human) clicks Publish. Used by KDP Ops (primary), approved by CEO Jason on price/launch-date decisions.
+description: KDP Select launch operations — Upload Packet template, full field-by-field upload checklist (ebook + paperback), pre-order strategy, pricing playbook for Heartland Fantasy in KU, launch runbook with T-minus schedule, royalty monitoring, support ticket templates, and account-safety rules. Critical: no KDP API exists. Agents prepare inputs; Board (human) clicks Publish. Used by KDP Ops (primary), approved by CEO Jason on price/launch-date decisions.
 ---
 
 # KDP Launch Playbook
@@ -11,13 +11,13 @@ See references/:
 - `upload-packet-structure.md` — per-book file bundle Nicole receives
 - `kdp-upload-checklist.md` — every field, in dashboard order, with recommended answers
 - `launch-t-minus-runbook.md` — T-60 through T+30 per-book schedule
-- `pricing-playbook-ku.md` — cozy fantasy pricing strategy for KDP Select
+- `pricing-playbook-ku.md` — Heartland Fantasy pricing strategy for KDP Select
 - `support-ticket-templates.md` — pre-drafted KDP support requests
 
 ## Board Decisions (Locked)
 
 - **Distribution:** KDP Select only. 90-day exclusivity, auto-renews. No wide before Book 3 minimum.
-- **DRM:** OFF on ebook. Once set, cannot change. Cozy fantasy standard.
+- **DRM:** OFF on ebook. Once set, cannot change. Heartland Fantasy standard.
 - **ISBN:** Own Bowker 10-pack (~$295, ~$29.50/book) — enables imprint "Jason Krebs Books" and wide-print optionality.
 - **Pre-order:** Book 1 NO pre-order (hard launch, 100% demand on Day 1). Books 2–6 pre-order 30–60 days out only, gated on EIC final sign-off.
 - **Pricing default:** Book 1 $0.99 launch week then settle at $4.99; Books 2–6 launch at $4.99 directly.

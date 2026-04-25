@@ -13,7 +13,7 @@ See `references/surface-rules.md`, `references/disclosure-policy.md`, `reference
 
 | Surface | AI-generated imagery? | Why |
 |---|---|---|
-| **Book cover (ebook + paperback + hardcover)** | **FORBIDDEN** | Conversion killer; cozy fantasy audience flags AI covers; KDP Sept 2023 disclosure required; brand-damaging |
+| **Book cover (ebook + paperback + hardcover)** | **FORBIDDEN** | Conversion killer; Heartland Fantasy audience flags AI covers; KDP Sept 2023 disclosure required; brand-damaging |
 | **A+ Content title banner** (represents the cover) | **FORBIDDEN** | Effectively part of the cover on the product page |
 | **A+ Content atmospheric modules** (quotes, setting shots) | **PERMITTED with rules** | Below-the-fold; not cover substitutes |
 | **Product page main image** | **FORBIDDEN** | Same as cover |

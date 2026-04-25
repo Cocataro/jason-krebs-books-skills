@@ -11,7 +11,7 @@
 ## Paperback (full wrap)
 
 - Single PDF wrap file
-- Trim: **5.25×8** for cozy fantasy (5.5×8.5 acceptable, 6×9 avoid — wrong genre feel)
+- Trim: **5.25×8** for Heartland Fantasy (5.5×8.5 acceptable, 6×9 avoid — wrong genre feel)
 - Cream paper (fiction standard)
 - Matte finish (warmer than gloss)
 - Bleed 0.125" if art extends to edge (for text-only interior, no bleed needed)

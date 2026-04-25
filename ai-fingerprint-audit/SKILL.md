@@ -1,6 +1,6 @@
 ---
 name: ai-fingerprint-audit
-description: 10-dimension rubric + tooling + thresholds for detecting and eliminating AI-default prose fingerprints in cozy fantasy drafts before ship. Based on Pangram/GPTZero/Binoculars research, 2024–2026 community ban-lists, and academic stylometry. Every chapter Daniel drafts passes through this audit via Thomas in the line/copy pass; Margaret spot-audits 1-in-5 chapters; final ship/no-ship gate. The core compliance target is the BookTok audience running their own detectors, not Amazon policy.
+description: 10-dimension rubric + tooling + thresholds for detecting and eliminating AI-default prose fingerprints in Heartland Fantasy drafts before ship. Based on Pangram/GPTZero/Binoculars research, 2024–2026 community ban-lists, and academic stylometry. Every chapter Daniel drafts passes through this audit via Thomas in the line/copy pass; Margaret spot-audits 1-in-5 chapters; final ship/no-ship gate. The core compliance target is the BookTok audience running their own detectors, not Amazon policy.
 ---
 
 # AI Fingerprint Audit
@@ -8,11 +8,11 @@ description: 10-dimension rubric + tooling + thresholds for detecting and elimin
 The real risk is not KDP enforcement — it's a reader pasting a paragraph into Pangram or GPTZero, screenshotting the result, and posting to r/fantasy or BookTok. Every observable AI-prose case that blew up in 2025 followed this pattern. Every chapter of every Crossroads Inn book must pass this audit before ship.
 
 See references:
-- `banned-vocabulary.md` — Tier 1/2/3 word and phrase ban-list, cozy-fantasy-specific additions
+- `banned-vocabulary.md` — Tier 1/2/3 word and phrase ban-list, heartland-fantasy-specific additions
 - `detector-tooling.md` — Pangram + GPTZero setup, thresholds, usage workflow
 - `lint-script.md` — in-house regex pass for D2–D9
 - `recovery-playbook.md` — 48-hour response plan if a book gets flagged publicly
-- `calibration-sprint.md` — how to set human-cozy-fantasy-baseline thresholds before Book 1 ships
+- `calibration-sprint.md` — how to set human-heartland-fantasy-baseline thresholds before Book 1 ships
 
 ## The 10-dimension rubric (replaces the old 7)
 
@@ -58,11 +58,11 @@ Ranked by load-bearing weight. Each chapter must PASS all **automated** dimensio
 - **Why:** the signature AI rhetorical move. Strongest single-pattern tell across every source.
 
 ### D6 — Tricolon and rule-of-three frequency
-- **Measure:** count of 3-item comma-separated lists in prose (not dialogue), including food-list stacks which are especially AI-default in cozy fantasy
+- **Measure:** count of 3-item comma-separated lists in prose (not dialogue), including food-list stacks which are especially AI-default in Heartland Fantasy
 - **Tool:** regex + short LLM check to exclude legitimate recurring lists
 - **PASS:** ≤1 per 1.5k words
 - **FAIL:** ≥3 per 1.5k words
-- **Why:** AI clusters tricolons; humans use one, move on. Cozy-fantasy sensory-list tricolons ("cinnamon, fresh bread, and old books") are the genre's single most abused pattern.
+- **Why:** AI clusters tricolons; humans use one, move on. Heartland-fantasy sensory-list tricolons ("cinnamon, fresh bread, and old books") are the genre's single most abused pattern.
 
 ### D7 — Paragraph-length chaos
 - **Measure:** standard deviation of paragraph word count ÷ mean paragraph word count
@@ -99,12 +99,12 @@ These don't automate reliably. Thomas includes them in the line pass; Margaret s
 - **Tic deployment consistency** — POV character's documented verbal/cognitive tics deployed ≥3x per chapter, from the character bible
 - **Scene-end variety** — no more than 60% of scenes in a chapter end on a reflection/summary/thematic sentence
 - **Character-voice differentiation** — dialogue from different characters has distinct lexical-diversity signatures (TTR variance >0.05 across speakers in dialogue-heavy scenes)
-- **Emotion showing vs. telling** — body/action evocation beats named-emotion telling (cozy fantasy reader expectation)
+- **Emotion showing vs. telling** — body/action evocation beats named-emotion telling (Heartland Fantasy reader expectation)
 - **Controlled dysfluency** — at least one deliberate fragment, one comma splice, or one non-elegant repetition per 2k words
 
-## Cozy fantasy-specific tells (extra-dangerous in this genre)
+## Heartland Fantasy-specific tells (extra-dangerous in this genre)
 
-See full list in `banned-vocabulary.md` §cozy-fantasy. Key tells:
+See full list in `banned-vocabulary.md` §heartland-fantasy. Key tells:
 
 1. **Warmth-by-adjective-stacking:** "warm, golden, honeyed" trios read Hallmark-AI, not cozy-craft
 2. **Sensory-list comfort beats:** tricolons of cozy objects ("cinnamon, fresh bread, old books") are the single most abused AI move in the genre
@@ -125,13 +125,13 @@ See full list in `banned-vocabulary.md` §cozy-fantasy. Key tells:
 
 ## Calibration sprint (one-time, before Book 1 draft starts)
 
-See `calibration-sprint.md`. Summary: run the full D1–D10 pipeline on 3–5 human cozy fantasy comp titles (*Legends & Lattes*, *Bookshops & Bonedust*, *Can't Spell Treason Without Tea*, *Emily Wilde's Encyclopedia of Faeries*, *The Spellshop*). Record their numbers. Set the studio's PASS band at ±1 standard deviation of that human cozy-fantasy baseline.
+See `calibration-sprint.md`. Summary: run the full D1–D10 pipeline on 3–5 human Heartland Fantasy comp titles (*Legends & Lattes*, *Bookshops & Bonedust*, *Can't Spell Treason Without Tea*, *Emily Wilde's Encyclopedia of Faeries*, *The Spellshop*). Record their numbers. Set the studio's PASS band at ±1 standard deviation of that human heartland-fantasy baseline.
 
-**Why:** the numeric thresholds above are synthesized from indie consensus — they need to be validated against human cozy fantasy to avoid shipping prose that's been over-humanized into unreadable jaggedness. Cozy fantasy has its own rhythm and warmth that some "AI-default" patterns (warm adjectives, sensory anchoring) imitate; don't strip what the genre legitimately needs.
+**Why:** the numeric thresholds above are synthesized from indie consensus — they need to be validated against human Heartland Fantasy to avoid shipping prose that's been over-humanized into unreadable jaggedness. Heartland Fantasy has its own rhythm and warmth that some "AI-default" patterns (warm adjectives, sensory anchoring) imitate; don't strip what the genre legitimately needs.
 
-## What happens when Pangram flags a human cozy fantasy book
+## What happens when Pangram flags a human Heartland Fantasy book
 
-Real risk, real cases: Pangram has publicly flagged literary human fiction (Hachette's *Shy Girl*, a viral NYT Modern Love column). The tool has false positives at the literary-voice end of the distribution — exactly where cozy fantasy lives.
+Real risk, real cases: Pangram has publicly flagged literary human fiction (Hachette's *Shy Girl*, a viral NYT Modern Love column). The tool has false positives at the literary-voice end of the distribution — exactly where Heartland Fantasy lives.
 
 **Mitigation:**
 1. Calibration sprint sets the target band empirically.

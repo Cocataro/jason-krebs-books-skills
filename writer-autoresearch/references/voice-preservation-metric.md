@@ -175,7 +175,7 @@ Requires Board approval.
 
 ## Calibration
 
-Similar to the rubric, calibrate this metric against the 5 human cozy fantasy comps:
+Similar to the rubric, calibrate this metric against the 5 human Heartland Fantasy comps:
 - Compute voice-distance between Book 1 anchor and each comp author's chapters
 - Expect 0.4–0.6 range (different but genre-adjacent voices)
 - Any variant that pushes Daniel's output to ~0.5 distance is drifting toward comp-author voice, not toward Jason Krebs's canonical voice

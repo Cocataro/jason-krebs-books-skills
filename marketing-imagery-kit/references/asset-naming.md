@@ -47,7 +47,7 @@ For every AI-generated image, save a `.meta.json` sidecar:
   "generated": true,
   "model": "Flux.dev",
   "model_version": "1.0",
-  "prompt": "A cozy fantasy illustration of a steaming mug of tea...",
+  "prompt": "A Heartland Fantasy illustration of a steaming mug of tea...",
   "negative_prompt": "photo, photograph, photorealistic, extra fingers...",
   "seed": 1234567890,
   "sampler": "DPM++ 2M",

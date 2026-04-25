@@ -13,7 +13,7 @@ With a LoRA: every AI image reads as "same world" as the covers — even when re
 ## Training
 
 ### Data collection (with consent)
-- 30–50 curated images from the illustrator's cozy fantasy work
+- 30–50 curated images from the illustrator's Heartland Fantasy work
 - Minimum: 20 images with diverse compositions (characters, interiors, exteriors, still lifes)
 - High-resolution originals (1024×1024+ minimum)
 - Consistent style: same illustrator's "voice"
@@ -49,7 +49,7 @@ Apply LoRA at **0.7–0.9 weight** for consistent illustrator-style output. Lowe
 
 Example SDXL prompt with illustrator LoRA:
 ```
-<lora:crossroads-illustrator-style:0.8> cozy fantasy illustration, the crossroads inn at golden hour, warm amber lamplight, (black cat on doorstep:1.1), painterly texture, Studio Ghibli aesthetic, warm palette, 2:3 portrait
+<lora:crossroads-illustrator-style:0.8> Heartland Fantasy illustration, the crossroads inn at golden hour, warm amber lamplight, (black cat on doorstep:1.1), painterly texture, Studio Ghibli aesthetic, warm palette, 2:3 portrait
 ```
 
 ## Licensing + ethics

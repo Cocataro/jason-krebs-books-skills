@@ -1,13 +1,13 @@
 ---
 name: stable-diffusion-prompts
-description: Adapts Midjourney-style prompts to Stable Diffusion variants (Flux.dev, Flux Pro, SDXL, SD 1.5) for cozy fantasy imagery. Includes syntax conversion, model-specific tuning, cozy fantasy palette presets, LoRA recommendations, and a hard guardrail that AI-generated pixels NEVER ship as final book covers. Used by Cover Art Director (ideation, moodboards, illustrator references) and Marketing (atmospheric imagery, per marketing-imagery-kit rules).
+description: Adapts Midjourney-style prompts to Stable Diffusion variants (Flux.dev, Flux Pro, SDXL, SD 1.5) for Heartland Fantasy imagery. Includes syntax conversion, model-specific tuning, Heartland Fantasy palette presets, LoRA recommendations, and a hard guardrail that AI-generated pixels NEVER ship as final book covers. Used by Cover Art Director (ideation, moodboards, illustrator references) and Marketing (atmospheric imagery, per marketing-imagery-kit rules).
 ---
 
 # Stable Diffusion Prompts
 
 Adapt the studio's Midjourney prompt library (on JAS-4 comments) for Flux / SDXL / SD 1.5. Pick the right model for the job.
 
-See `references/model-comparison.md`, `references/mj-to-flux.md`, `references/mj-to-sdxl.md`, `references/cozy-fantasy-presets.md`, `references/lora-strategy.md`.
+See `references/model-comparison.md`, `references/mj-to-flux.md`, `references/mj-to-sdxl.md`, `references/heartland-fantasy-presets.md`, `references/lora-strategy.md`.
 
 ## HARD GUARDRAIL (non-negotiable)
 
@@ -27,41 +27,41 @@ See the `marketing-imagery-kit` skill for the detailed acceptable-use rules.
 | Large-batch generation (100+ images) | **SDXL** local | Fastest local if GPU available; more prompt tuning needed |
 | Prototyping on low-end hardware | **SD 1.5** + SDXL-Lightning | Runs on older GPUs |
 
-**If a model isn't working for a specific task**, switch. Don't force. Different checkpoints + fine-tunes will perform differently on cozy fantasy aesthetics.
+**If a model isn't working for a specific task**, switch. Don't force. Different checkpoints + fine-tunes will perform differently on Heartland Fantasy aesthetics.
 
 ## Syntax portability (MJ → SD family)
 
 ### MJ prompt example
 ```
-The Crossroads Inn at golden hour, warm interior light spilling through small-paned windows onto a snow-dusted path, cat with golden eyes on the doorstep, cozy fantasy illustration, warm palette of amber and forest green, painterly brush texture, studio ghibli style, --ar 2:3 --stylize 300
+The Crossroads Inn at golden hour, warm interior light spilling through small-paned windows onto a snow-dusted path, cat with golden eyes on the doorstep, Heartland Fantasy illustration, warm palette of amber and forest green, painterly brush texture, studio ghibli style, --ar 2:3 --stylize 300
 ```
 
 ### → Flux.dev (natural language, very close to MJ)
 ```
-A cozy fantasy illustration of The Crossroads Inn at golden hour. Warm interior light spills through small-paned windows onto a snow-dusted path. A black cat with golden eyes sits on the doorstep. Warm painterly palette dominated by amber and forest green. Visible brush and pencil texture. Studio Ghibli storybook aesthetic for adults. Portrait composition, 2:3 aspect ratio. Soft focus background, detailed foreground.
+A Heartland Fantasy illustration of The Crossroads Inn at golden hour. Warm interior light spills through small-paned windows onto a snow-dusted path. A black cat with golden eyes sits on the doorstep. Warm painterly palette dominated by amber and forest green. Visible brush and pencil texture. Studio Ghibli storybook aesthetic for adults. Portrait composition, 2:3 aspect ratio. Soft focus background, detailed foreground.
 ```
 (Flux handles flowing English better than tag lists.)
 
 ### → SDXL (more explicit weights + negatives)
 ```
-Prompt: cozy fantasy illustration, (the crossroads inn:1.2), (golden hour:1.1), warm interior lamplight through small-paned windows, snow-dusted path, (black cat with golden eyes on doorstep:1.1), painterly brush texture, (studio ghibli aesthetic:1.2), (warm palette:1.1), amber and forest green, detailed illustration, 8k, masterpiece
+Prompt: Heartland Fantasy illustration, (the crossroads inn:1.2), (golden hour:1.1), warm interior lamplight through small-paned windows, snow-dusted path, (black cat with golden eyes on doorstep:1.1), painterly brush texture, (studio ghibli aesthetic:1.2), (warm palette:1.1), amber and forest green, detailed illustration, 8k, masterpiece
 
 Negative: photo, photograph, photorealistic, cgi, 3d render, anime, manga, chromatic aberration, oversaturated, plastic skin, (extra fingers:1.5), (bad hands:1.5), (deformed:1.2), watermark, signature, text, blurry, low quality
 ```
 
 ### → SD 1.5 (even more explicit, aggressive negatives)
-Use with cozy-fantasy-tuned checkpoints (e.g., RevAnimated, CyberRealistic with illustration focus). SD 1.5 needs stronger LoRAs and more careful weighting. See `references/mj-to-sdxl.md` for exact adaptation.
+Use with heartland-fantasy-tuned checkpoints (e.g., RevAnimated, CyberRealistic with illustration focus). SD 1.5 needs stronger LoRAs and more careful weighting. See `references/mj-to-sdxl.md` for exact adaptation.
 
-## Cozy fantasy baseline additions (every prompt)
+## Heartland Fantasy baseline additions (every prompt)
 
-Add these tokens to any cozy fantasy prompt, tuned per model:
+Add these tokens to any Heartland Fantasy prompt, tuned per model:
 
-- Style: `painterly illustration`, `storybook aesthetic`, `studio ghibli for adults`, `cozy fantasy cover art`
+- Style: `painterly illustration`, `storybook aesthetic`, `studio ghibli for adults`, `Heartland Fantasy cover art`
 - Palette: `warm amber and sage green palette`, `single warm light source`, `golden hour`, `hearthfire glow`
 - Texture: `visible brush texture`, `pencil underdrawing`, `hand-painted texture`, `no plastic sheen`
 - Composition: `character + place composition`, `three-quarter or back view figure`, `inviting not confrontational`
 
-## Cozy fantasy AVOIDANCE list (add to negatives)
+## Heartland Fantasy AVOIDANCE list (add to negatives)
 
 - `photorealistic, photograph, photo, cgi, 3d render, plastic, glossy, anime, manga`
 - `romantasy, sultry, provocative pose, seductive` (wrong genre)
@@ -75,7 +75,7 @@ Add these tokens to any cozy fantasy prompt, tuned per model:
 - **Train a LoRA on your retained illustrator's style** once Sofia locks one.
 - Use for: consistent in-series moodboards, illustrator reference sheets, character studies, marketing atmospherics.
 - Base model: Flux.dev is current best for LoRA training quality.
-- Training data: 30–50 curated images from the illustrator's cozy fantasy work, with consent.
+- Training data: 30–50 curated images from the illustrator's Heartland Fantasy work, with consent.
 - Never ship LoRA-generated final covers (still governed by the HARD GUARDRAIL).
 
 See `references/lora-strategy.md` for training + use specifics.
@@ -98,8 +98,8 @@ Fail any → regenerate or reject.
 1. Source a Midjourney prompt from JAS-4 or compose new.
 2. Select model per task (table above).
 3. Adapt syntax (see `references/mj-to-flux.md` or `references/mj-to-sdxl.md`).
-4. Add cozy fantasy baseline tokens.
-5. Add cozy fantasy negatives.
+4. Add Heartland Fantasy baseline tokens.
+5. Add Heartland Fantasy negatives.
 6. Generate batch of 4–8.
 7. AI-fingerprint audit each image.
 8. Select 1–3 winners for the task.
@@ -107,4 +107,4 @@ Fail any → regenerate or reject.
 
 ## Model version flexibility (Board policy)
 
-If a specific SD variant produces better results for a given task, use it. No dogma about which checkpoint. Evaluate on output quality against the cozy fantasy visual grammar, not the model's popularity.
+If a specific SD variant produces better results for a given task, use it. No dogma about which checkpoint. Evaluate on output quality against the Heartland Fantasy visual grammar, not the model's popularity.

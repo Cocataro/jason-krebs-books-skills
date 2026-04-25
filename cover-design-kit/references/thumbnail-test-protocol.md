@@ -11,10 +11,10 @@ Run at every milestone: concept sketch, pre-type composite, final.
 ## Pass criteria
 
 - [ ] Title legible in < 1 second at 150px
-- [ ] Genre reads as cozy fantasy in < 2 seconds at 150px (test with 3+ non-team readers)
+- [ ] Genre reads as Heartland Fantasy in < 2 seconds at 150px (test with 3+ non-team readers)
 - [ ] Placed next to prior Book covers — reads as same series?
 - [ ] Placed next to prior Book covers — reads as different book (not accidentally identical)?
-- [ ] Placed next to 3 top-20 cozy fantasy comps — holds its own or disappears?
+- [ ] Placed next to 3 top-20 Heartland Fantasy comps — holds its own or disappears?
 - [ ] Warm palette survives sRGB compression + Amazon JPEG pass
 - [ ] 80px mobile scroll: title + figure + genre all still communicate
 
@@ -32,6 +32,6 @@ Any single failure blocks sign-off. Do not move to final delivery with a thumbna
 ## Reference shelf
 
 Compare the candidate cover at 150px against a curated grid of:
-- Current Amazon Cozy Fantasy Top 20 (refresh monthly)
+- Current Amazon Heartland Fantasy Top 20 (refresh monthly)
 - Anchor comps: *Legends & Lattes*, *Bookshops & Bonedust*, *Emily Wilde*, *Tomes & Tea*, *The Spellshop*, *The Very Secret Society of Irregular Witches*, *The House in the Cerulean Sea*
 - Prior Books in the series (for consistency)

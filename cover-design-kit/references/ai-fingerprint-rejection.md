@@ -42,4 +42,4 @@ Inspect every illustrator deliverable. If ANY check fails, reject the delivery a
 - Reader communities (BookTok, r/Fantasy, r/PubTips) will flag it.
 - Genre reviewers will cite it.
 - Conversion will drop measurably.
-- The series' brand absorbs the cost forever — you cannot recover a cover-shaming reputation in cozy fantasy.
+- The series' brand absorbs the cost forever — you cannot recover a cover-shaming reputation in Heartland Fantasy.

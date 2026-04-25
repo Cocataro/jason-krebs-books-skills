@@ -5,7 +5,7 @@ Send to the retained illustrator at Week 1 per cover. EIC approves brief before 
 ```
 PROJECT: [Series Name], Book N — [Title]
 AUTHOR: Jason Krebs (pen persona)
-GENRE: Cozy Fantasy
+GENRE: Heartland Fantasy
 ILLUSTRATOR SERIES CONTRACT: [retained / new]
 
 BOOK LOGLINE (1–2 sentences)
@@ -34,7 +34,7 @@ TYPOGRAPHY LOCKUP (for reference; composited in-house at Week 5)
 - Series badge placement: [consistent series position]
 
 REFERENCES (attached)
-- Top 20 cozy fantasy Amazon screenshot
+- Top 20 Heartland Fantasy Amazon screenshot
 - 3–5 comp covers
 - Pinterest moodboard link
 - Prior Book covers in this series (if applicable)
