@@ -99,18 +99,56 @@ These 23 are compression. Read the full references for depth. Read Reference 3 (
 
 ---
 
-## Pre-commit checklist (Daniel runs before claiming done)
+## Pre-commit checklist — MANDATORY (Daniel runs before claiming done; failure = no commit)
 
-1. **9-grep audit** — original forbidden-construction grep (similes, "because," etc.). Zero hits.
-2. **Pattern detector** — `pre-commit-pattern-check.py` (built under JAS-74). Zero hits on rules 16-23 patterns.
-3. **Catalog audit** — manual scan: any sequence of 3+ similar items in the same section?
-   - If yes: do they pass rule 20 (no parallel template across adjacent)?
-   - If yes: are they within rule 21 limits (≤3 brief vignettes, OR sufficiently restructured)?
-4. **Substitution check** — any emotional-aftermath beat over 100 words that's pure interiority? If yes, substitute per rule 18.
-5. **Literary-withholding scan** — grep for the rule-16 banned phrases. Zero hits.
-6. **Commit + push + SHA in status comment.** No exceptions.
+This is a HARD GATE. Effective 2026-04-25 after Ch 1 v9.2 fresh draft (commit `242ad98`) was committed with 15 forbidden-construction violations Daniel didn't catch. Pangram flagged 1.000 AI. The protocol rules ARE sufficient — what failed was enforcement. This checklist now enforces.
 
-If ANY of these fail, revise before committing. Pre-emptive prevention is cheaper than post-Pangram revision.
+### Step 1 — Run the unified detector
+
+Single command. Catches rules 1, 2, 3, 6, 16-23 in one pass.
+
+```bash
+python3 /paperclip/instances/default/skills/<company-id>/pangram-detector/scripts/pre-commit-pattern-check.py path/to/your/draft.md
+```
+
+Expected output: `PASS <filename> — no pattern hits`
+
+If output is `FAIL ... N hit(s)`: **revise before commit.** Each hit lists pattern, rule, line, and snippet. Address each one. Re-run until PASS.
+
+### Step 2 — Substitution check
+
+Any emotional-aftermath beat over 100 words that's pure interiority? If yes, substitute per rule 18 (action over interiority).
+
+### Step 3 — Commit with proof-of-audit
+
+Commit message MUST include the detector output as proof. Format:
+
+```
+[Chapter draft message]
+
+Pre-commit audit:
+- pre-commit-pattern-check.py: PASS (0 hits)
+- substitution check: clean / [if applies, list any 100+ word interiority blocks and the rationale]
+```
+
+A commit without the audit-output line in the body is NOT a valid commit. Board reverts unaudited commits.
+
+### Step 4 — Frontmatter `patterns_applied` is a CLAIM, not proof
+
+The frontmatter `patterns_applied: zero-inference-register, ...` field declares which protocol you intended. The DETECTOR OUTPUT is the proof. Discrepancies between intent and output are caught by Pangram and waste 4-7 hours per chapter to fix. Don't claim, verify.
+
+### Why this matters
+
+Today's Ch 1 v9.2 fresh draft had:
+- 5 instances of "the way" (similes)
+- 4 instances of "like" (similes)
+- 3 instances of "because" (explanatory clauses)
+- 1 instance of "since"
+- 2 instances of "as if"
+
+Daniel's commit frontmatter claimed `patterns_applied: zero-inference-register`. That was a lie — the patterns weren't applied. Pangram caught it. Hours wasted on diagnosis, revision, and discovery that the detector didn't yet cover rules 1-15.
+
+The detector now covers all 23 rules. The protocol works. Don't skip the gate.
 
 ---
 
